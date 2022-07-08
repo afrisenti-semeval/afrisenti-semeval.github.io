@@ -18,7 +18,7 @@ title: AfriSenti-SemEval
 email:
 description:
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: "https://afrisenti-semeval.github.io/"
+url: "https://afrisenti-semeval.github.io"
 author:
   name: HausaNLP
   twitter: 
