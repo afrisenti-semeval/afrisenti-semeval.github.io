@@ -1,52 +1,159 @@
-# Changelog
+# Change Log
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file.
 
-## [5.2.1](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v5.2.0...v5.2.1) (2022-06-17)
+The format is based on [Keep a Changelog](http://keepachangelog.com/)
+and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.4.5] - 2021-07-05
 
-### Bug Fixes
+## Added
+- Add translation keys for CV layout. [#145](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/145)
+- Display 'Posts' header only if the site has posts. [#144](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/144)
 
-* exclude CHANGELOG from output ([971fe03](https://github.com/cotes2020/jekyll-theme-chirpy/commit/971fe03ec329ae49e7d60fe3af6101cfbd1acd6c))
-* **PWA:** sometimes update notification is not triggered ([96af729](https://github.com/cotes2020/jekyll-theme-chirpy/commit/96af7291ea5b2c5ed6372e7b6f7725e67c69f1ba))
+## Changed
+- Improve remote theme upgrading documentation.
+- Simplify image assigns.
+### Fixed
+- Fix to use current `bundle info` syntax. [#127](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/127)
+- Add `relative_url` filter to author profile image. [#125](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/125)
+- Fix rake vulnerability in `.gemspec` file.
 
-## [5.2.0](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v5.1.0...v5.2.0) (2022-06-09)
+## [1.4.4] - 2019-08-20
 
+### Fixed
+- Fix MIME-type issues with Lunr search by renaming `search-data.json` to `lunr/lunr.store.js`. [#82](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/82)
 
-### Features
+## [1.4.3] - 2019-08-20
 
-* add es-ES support to locales ([#533](https://github.com/cotes2020/jekyll-theme-chirpy/issues/533)) ([efe75ad](https://github.com/cotes2020/jekyll-theme-chirpy/commit/efe75adf2784956afb7a0b67f6634b146d9cb03b))
-* add fr-FR support to locales ([#582](https://github.com/cotes2020/jekyll-theme-chirpy/issues/582)) ([94e8144](https://github.com/cotes2020/jekyll-theme-chirpy/commit/94e81447afa457b1a6b7e8f487c47502803556d7))
-* add Vietnamese locale ([#517](https://github.com/cotes2020/jekyll-theme-chirpy/issues/517)) ([171463d](https://github.com/cotes2020/jekyll-theme-chirpy/commit/171463d76da9b7bc25dd327b8f0a868ea79e388b))
-* add pt-BR support to locales ([c2c503f](https://github.com/cotes2020/jekyll-theme-chirpy/commit/c2c503f63336884282b6bda4ec0703d6ae76771b))
-* add option to turn off PWA ([#527](https://github.com/cotes2020/jekyll-theme-chirpy/issues/527)) ([106c981](https://github.com/cotes2020/jekyll-theme-chirpy/commit/106c981bac71e7434204a77e1f0c9c61d6eb1509))
-* **PWA:** add Service Worker update notification ([d127183](https://github.com/cotes2020/jekyll-theme-chirpy/commit/d127183b9774f6321e409acdb66bf8a85d8814be))
-* support showing description of preview image ([2bd6efa](https://github.com/cotes2020/jekyll-theme-chirpy/commit/2bd6efa95a174ac44e30a3af1e57e6f40d6e0e3a))
+### Changed
+- Relax Jekyll dependency to allow for version 4.0.
 
+## [1.4.2] - 2019-07-18
 
-### Bug Fixes
+### Added
+- Document `site.copyright` override for customizing footer copyright text.
 
-* alt is not a valid attribute for 'a' tag ([58928db](https://github.com/cotes2020/jekyll-theme-chirpy/commit/58928dbc9068db4e4cda4371eeae1865920dce6a))
-* assets URL is missing `baseurl` in self-hosted mode ([#591](https://github.com/cotes2020/jekyll-theme-chirpy/issues/591)) ([54124d5](https://github.com/cotes2020/jekyll-theme-chirpy/commit/54124d5134995fce52e4c2fc0a5d4d1743d6264d))
-* correct the `twitter:creator` of Twitter summary card ([96a16c8](https://github.com/cotes2020/jekyll-theme-chirpy/commit/96a16c868ede51e7dfa412de63ffa1e5a49add7f))
-* correctly URL encode share links ([4c1c8d8](https://github.com/cotes2020/jekyll-theme-chirpy/commit/4c1c8d8b0eacecbbaa2d522bbdd6430f350ff760)), closes [#496](https://github.com/cotes2020/jekyll-theme-chirpy/issues/496)
-* follow paginate_path config for pagination ([6900d9f](https://github.com/cotes2020/jekyll-theme-chirpy/commit/6900d9f2bc9380cbda4babf611c6eeff345291af))
-* force checkout of `gh-pages` branch ([#544](https://github.com/cotes2020/jekyll-theme-chirpy/issues/544)) ([5402523](https://github.com/cotes2020/jekyll-theme-chirpy/commit/5402523ae52a3740bcc15df0b226b2612644945d))
-* horizontal scroll for long equations ([#545](https://github.com/cotes2020/jekyll-theme-chirpy/issues/545)) ([30787fc](https://github.com/cotes2020/jekyll-theme-chirpy/commit/30787fc4cf151e955bb7afc26dfd859f1a06fce6))
-* p is not allowed in span ([4f590e2](https://github.com/cotes2020/jekyll-theme-chirpy/commit/4f590e2bba0639751771211bc0d357828ae70404))
-* remove whitespace from avatar URL ([#537](https://github.com/cotes2020/jekyll-theme-chirpy/issues/537)) ([0542b51](https://github.com/cotes2020/jekyll-theme-chirpy/commit/0542b5149c8287dca60e37f46ee36f31b43455e4))
-* resume the preview image SEO tag ([#529](https://github.com/cotes2020/jekyll-theme-chirpy/issues/529)) ([b8d1bcd](https://github.com/cotes2020/jekyll-theme-chirpy/commit/b8d1bcd3dea0abd1afef7ef154a4501fbb18938d))
-* script code should be in head or body, not in between ([2103191](https://github.com/cotes2020/jekyll-theme-chirpy/commit/2103191b2faf714a8e4418c7c347a1f942b51af8))
-* spurious header closing tags ([59e9557](https://github.com/cotes2020/jekyll-theme-chirpy/commit/59e955745f02f9b57c65af70b0979cd4a98bf53f))
-* table bypass refactoring when it contains IAL ([#519](https://github.com/cotes2020/jekyll-theme-chirpy/issues/519)) ([5d85ccb](https://github.com/cotes2020/jekyll-theme-chirpy/commit/5d85ccb9943aac88dbbefebe1c2234cdcbae5c53))
-* **theme mode:** `SCSS` syntax error ([#588](https://github.com/cotes2020/jekyll-theme-chirpy/issues/588)) ([76a1b6a](https://github.com/cotes2020/jekyll-theme-chirpy/commit/76a1b6a068c369138422dcd18ba08ec8cc3749a6))
-* use `jsonify` to generate valid json ([#521](https://github.com/cotes2020/jekyll-theme-chirpy/issues/521)) ([dd9d5a7](https://github.com/cotes2020/jekyll-theme-chirpy/commit/dd9d5a7207b746342d07176d8969dc4f2c380bf2))
-* when the `site.img_cdn` is set to the local path, the preview-image path loses the `baseurl` ([9cefe58](https://github.com/cotes2020/jekyll-theme-chirpy/commit/9cefe58993d9ea3a3a28424e7ffd8e0911567c5c))
+### Changed
+- Update links to LICENSE. [#102](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/102)
+- Update GitHub issue templates.
 
+### Fixed
+- Fix theme text strings for `search_placeholder_text` and `results_found`. [#104](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/104)
+- Remove stray `console.log` from lunr-search-scripts [#105](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/105)
+- Add missing `/` in icon-gitlab.html. [#80](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/80)
 
-### Improvements
+## [1.4.1] - 2018-08-07
 
-* avoid post pageviews from shifting while loading ([135a16f](https://github.com/cotes2020/jekyll-theme-chirpy/commit/135a16f13ee783d9308669ff9a824847a73c951c))
-* avoid the layout shift for post datetime ([6d35f5f](https://github.com/cotes2020/jekyll-theme-chirpy/commit/6d35f5f8da044cfad071628bb53776de03efaae4))
-* **categories:** support singular and plural forms of locale ([#595](https://github.com/cotes2020/jekyll-theme-chirpy/issues/595)) ([35cadf9](https://github.com/cotes2020/jekyll-theme-chirpy/commit/35cadf969dd0161ee62503e242c545f006f7072b))
-* improve the responsive design for ultrawide screens ([#540](https://github.com/cotes2020/jekyll-theme-chirpy/issues/540)) ([5d6e8c5](https://github.com/cotes2020/jekyll-theme-chirpy/commit/5d6e8c5ef6aa71b4d2600c5305f6e8ba540557f7))
+### Added
+- Add sample "404 not found page" to `/docs/404.html` and `/example/404.html`. [#12](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/12)
+
+### Changed
+- Adjust default skin colors to meet WCAG 2 AA. [#68](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/68)
+
+### Fixed
+- Remove extra footer from cv.html `layout`. [#69](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/69)
+- Fix JavaScript error when search is not enabled. [#66](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/66)
+
+## [1.4.0] - 2018-04-02
+
+### Changed
+- Lint JavaScript.
+- Update gemspec to use jekyll-seo-tag version `2.4`. [#47](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/47)
+
+### Added
+- Accessibility enhancements for Lunr search form.
+- Add SCSS `$intro-image-color-overlay` variable to enable color overlay on hero images (disabled by default). [#55](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/55)
+- Add new archive layouts: `posts`, `categories`, `category`, `collection`, `tag`, and `tags`.
+- Add grid layout via `entries_layout: grid` front matter.
+- Add support for image thumbnails vial `image.thumbnail` front matter.
+
+### Fixed
+- Fix Firefox [flexbox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=939897) when printing pages.
+- Fix search excerpts that run together because of implied spaces.
+- Moved `<footer>` outside of `<main>` to be semantically correct.
+
+## [1.3.1] - 2018-02-16
+
+### Changed
+- Only include jQuery when using default Lunr search. [#49](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/49)
+
+### Fixed
+- Focus on search input after clicking on toggle.
+
+## [1.3.0] - 2018-02-16
+
+### Added
+- Add jQuery script.
+- Add site-wide search toggle.
+- Add support for [Lunr](https://lunrjs.com/) search. [#48](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/48)
+- Add support for [Algolia](https://www.algolia.com/) search. [#48](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/48)
+- Add [Algolia search demo](https://mmistakes.github.io/jekyll-theme-basically-basic-algolia-search/).
+
+### Changed
+- New installation and upgrade instructions.
+- Absolutely position navigation menu instead of sticking it to the top.
+- Visually hide "Menu" label.
+- Improve alignment of menu toggle when search is enabled.
+
+### Fixed
+- Fix `border-bottom` for Gist line numbers.
+
+## [1.2.0] - 2018-01-05
+
+### Added
+- Use [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme) for demo site.
+
+### Changed
+- Update GitHub Pages compatible installation instructions to include jekyll-remote-theme method.
+- Update `site.gems` references to `site.plugins`. [#39](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/39)
+- Update license and copyright.
+- Improve syntax highlighting styles and colors.
+
+### Fixed
+- Fix primary navigation skip link to use correct anchor ID. [#41](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/41)
+- Fix Susy deprecation warnings by updating to version 3. [#21](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/21)
+
+## [1.1.3] - 2017-10-19
+
+### Fixed
+- Fix `{nil, "picture"=>nil"}` in `_layouts/about.html` when author image isn't set. [#34](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/34)
+
+## [1.1.2] - 2017-09-14
+
+### Fixed
+- Adjust `/_sass/_print.scss` to reduce blank pages when printing in Chrome. [#29](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/29)
+- Fix sidebar visibility bug in Firefox and Safari by adding toggling `visibility: hidden`. [#31](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/31) 
+
+## [1.1.1] - 2017-09-06
+
+### Changed
+- Change `gems` key in `_config.yml` to `plugins`. [#23](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/23)
+
+### Fixed
+- Fix Liquid syntax error: "Expected id but found end_of_string_in `cv.skills.`" in `/cv/skills.html` include.
+
+## [1.1.0] - 2017-03-30
+
+### Added
+- Improve installation documentation. [#8](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/8)
+- Add Google Analytics tracking ID, Disqus comments, to `/docs` demo site.
+
+### Changed
+- Change source order of `.sidebar` and `.canvas` so menu items can easily be "tabbed" to. [#10](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/10)
+- Refactor sidebar off-canvas menu and improve animation. [#9](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/9) [#15](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/15)
+- Remove tinted background from `<th>` elements.
+- Update permalink structure of `/docs` demo site.
+
+### Fixed
+- Fix `body` height and `.wrapper` box shadow. [#13](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/13)
+- Fix unclickable main content links in Internet Explorer 10. [#9](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/9)
+
+## [1.0.1] - 2017-03-23
+
+### Added
+- New responsive embed helper classes for videos. [#2](https://github.com/mmistakes/jekyll-theme-basically-basic/issues/2)
+- New print styles for improved readability of printed pages. [#4](https://github.com/mmistakes/jekyll-theme-basically-basic/pull/4)
+- Icon list to README.
+
+## [1.0.0] - 2017-03-20
