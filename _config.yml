@@ -105,14 +105,14 @@ analytics:
 # Site Author
 author:
   name             : "HausaNLP"
-  avatar           : "/docs/assets/images/unsplash-image-1.jpg"
+  avatar           : "/assets/images/unsplash-image-1.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:hausanlp@buk.edu.ng"
+      url: "mailto:hausanlp@buk.edu.ng"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
