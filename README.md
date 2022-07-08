@@ -1,75 +1,105 @@
-# MULTI-CONER NER Baseline.
+<div align="center">
 
-This code repository provides you with baseline approach for Named Entity Recognition (NER). In this repository the following functionalities are provided:
+  # Chirpy Jekyll Theme
 
-- CoNLL data readers
-- Usage of any HuggingFace pre-trained transformer models
-- Training and Testing through Pytorch-Lightning  
+  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
-Below a more detailed description on how to use this code is provided.
+  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)](https://rubygems.org/gems/jekyll-theme-chirpy)
+  [![Build Status](https://github.com/cotes2020/jekyll-theme-chirpy/workflows/build/badge.svg?branch=master&event=push)](https://github.com/cotes2020/jekyll-theme-chirpy/actions?query=branch%3Amaster+event%3Apush)
+  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4e556876a3c54d5e8f2d2857c4f43894)](https://www.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cotes2020/jekyll-theme-chirpy&amp;utm_campaign=Badge_Grade)
+  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy.svg)](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE)
+  [![996.icu](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg)](https://996.icu)
 
-### Running the Code
+  [**Live Demo →**](https://cotes2020.github.io/chirpy-demo)
 
-#### Arguments:
-```
-p.add_argument('--train', type=str, help='Path to the train data.', default=None)
-p.add_argument('--test', type=str, help='Path to the test data.', default=None)
-p.add_argument('--dev', type=str, help='Path to the dev data.', default=None)
+  [![Devices Mockup](https://raw.githubusercontent.com/cotes2020/chirpy-images/main/commons/devices-mockup.png)](https://cotes2020.github.io/chirpy-demo)
 
-p.add_argument('--out_dir', type=str, help='Output directory.', default='.')
-p.add_argument('--iob_tagging', type=str, help='IOB tagging scheme', default='wnut')
+</div>
 
-p.add_argument('--max_instances', type=int, help='Maximum number of instances', default=-1)
-p.add_argument('--max_length', type=int, help='Maximum number of tokens per instance.', default=50)
+## Features
 
-p.add_argument('--encoder_model', type=str, help='Pretrained encoder model to use', default='xlm-roberta-large')
-p.add_argument('--model', type=str, help='Model path.', default=None)
-p.add_argument('--model_name', type=str, help='Model name.', default=None)
-p.add_argument('--stage', type=str, help='Training stage', default='fit')
-p.add_argument('--prefix', type=str, help='Prefix for storing evaluation files.', default='test')
-
-p.add_argument('--batch_size', type=int, help='Batch size.', default=128)
-p.add_argument('--gpus', type=int, help='Number of GPUs.', default=1)
-p.add_argument('--epochs', type=int, help='Number of epochs for training.', default=5)
-p.add_argument('--lr', type=float, help='Learning rate', default=1e-5)
-p.add_argument('--dropout', type=float, help='Dropout rate', default=0.1)
-``` 
-
-#### Running 
-
-###### Train a XLM-RoBERTa base model
-```
-python -m ner_baseline.train_model --train train.txt --dev dev.txt --out_dir . --model_name xlmr_ner --gpus 1 \
-                                   --epochs 2 --encoder_model xlm-roberta-base --batch_size 64 --lr 0.0001
-```
-
-###### Evaluate the trained model
-```
-python -m ner_baseline.evaluate --test test.txt --out_dir . --gpus 1 --encoder_model xlm-roberta-base \
-                                --model MODEL_FILE_PATH --prefix xlmr_ner_results
-
-```
+- Localized Layout
+- Dark/Light Theme Mode
+- Pinned Posts
+- Hierarchical Categories
+- Last Modified Date for Posts
+- Table of Contents
+- Auto-generated Related Posts
+- Syntax Highlighting
+- Mathematical Expressions
+- Mermaid Diagram & Flowchart
+- Disqus/Utterances/Giscus Comments
+- Search
+- Atom Feeds
+- Google Analytics
+- GA Pageviews Reporting
+- SEO & Performance Optimization
 
 
-###### Predicting the tags from a pretrained model
+## Quick Start
 
-```
-python -m ner_baseline.predict_tags --test test.txt --out_dir . --gpus 1 --encoder_model xlm-roberta-base \
-                                --model MODEL_FILE_PATH --prefix xlmr_ner_results --max_length 500
+Before starting, please follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll`, and `Bundler`. In addition, [Git](https://git-scm.com/) is also required to be installed.
 
+### Step 1. Creating a New Site
+
+Create a new repository from the [**Chirpy Starter**](https://github.com/cotes2020/chirpy-starter/generate) and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
+
+### Step 2. Installing Dependencies
+
+Before running for the first time, go to the root directory of your site, and install dependencies as follows:
+
+```console
+$ bundle
 ```
 
-- For this functionality we have implemented an efficient approach for predicting the output tags, independent of the tokenizer used. 
-  -  The method _parse_tokens_for_ner_ in [reader.py]( https://github.com/amzn/multiconer-baseline/blob/86a1c309f19f7664a75b63c8814e7d60009c09d5/utils/reader.py#L67) while reading the data in CoNLL format, for each token it tokenizes it into its subwords, and additionally generates a mask, where only the first subword of a token is marked with True. 
-    -    For example, for the token `MultiCoNER`, if we use XLM-RoBERTa, we get the following tokens `['▁Multi', 'Co', 'NER']`, which result in the following token mask `[True, False, False]`
-    -    These token masks are part of the output returned by the provided reader.
-  -  Finally, when predicting the token tags, the model has the [predict_tags](https://github.com/amzn/multiconer-baseline/blob/86a1c309f19f7664a75b63c8814e7d60009c09d5/model/ner_model.py#L187), which picks only the first tag from the first subword  of each token. This process is efficient and is implemented using native python functionalities, e.g. `[compress(pred_tags_, mask_) for pred_tags_, mask_ in zip(pred_tags, token_mask)]`, which is executed for an entire batch.
+### Step 3. Running Local Server
 
-### Setting up the code environment
+Run the following command in the root directory of the site:
 
-```
-$ pip install -r requirements.txt
+```console
+$ bundle exec jekyll s
 ```
 
-# License 
-The code under this repository is licensed under the [Apache 2.0 License](https://github.com/amzn/multiconer-baseline/blob/main/LICENSE).
+Or run with Docker:
+
+```console
+$ docker run -it --rm \
+    --volume="$PWD:/srv/jekyll" \
+    -p 4000:4000 jekyll/jekyll \
+    jekyll serve
+```
+
+After a while, navigate to the site at <http://localhost:4000>.
+
+## Documentation
+
+For more details on usage, please refer to the tutorial on the [demo website](https://cotes2020.github.io/chirpy-demo/) / [wiki](https://github.com/cotes2020/jekyll-theme-chirpy/wiki). Note that the tutorial is based on the [latest tag](https://github.com/cotes2020/jekyll-theme-chirpy/tags), and the features of the default branch are usually ahead of the documentation.
+
+## Contributing
+
+Welcome to report bugs, improve code quality or submit a new feature. For more information, see [contributing guidelines](.github/CONTRIBUTING.md).
+
+## Credits
+
+This theme is mainly built with [Jekyll](https://jekyllrb.com/) ecosystem, [Bootstrap](https://getbootstrap.com/), [Font Awesome](https://fontawesome.com/) and some other wonderful tools (their copyright information can be found in the relevant files). The avatar and favicon design come from [Clipart Max](https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/).
+
+:tada: Thanks to all the volunteers who contributed to this project, their GitHub IDs are on [this list](https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors). Also, I won't forget those guys who submitted the issues or unmerged PR because they reported bugs, shared ideas, or inspired me to write more readable documentation.
+
+Last but not least, thank [JetBrains][jb] for providing the OSS development license.
+
+## Sponsoring
+
+If you like this theme or find it helpful, please consider sponsoring me, because it will encourage and help me better maintain the project, I will be very grateful!
+
+[![Ko-fi](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-ff5f5f?logo=ko-fi&logoColor=white)](https://ko-fi.com/coteschung)
+[![Wechat Pay](https://img.shields.io/badge/-Tip%20Me%20on%20WeChat-brightgreen?logo=wechat&logoColor=white)][cn-donation]
+[![Alipay](https://img.shields.io/badge/-Tip%20Me%20on%20Alipay-blue?logo=alipay&logoColor=white)][cn-donation]
+
+## License
+
+This work is published under [MIT](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE) License.
+
+<!-- ReadMe links -->
+
+[jb]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
+[cn-donation]: https://cotes.gitee.io/alipay-wechat-donation/
