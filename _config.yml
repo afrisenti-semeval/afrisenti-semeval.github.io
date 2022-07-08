@@ -20,11 +20,11 @@ description:
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: "https://afrisenti-semeval.github.io/"
 author:
-  name:
-  twitter:
+  name: HausaNLP
+  twitter: 
   picture:
-twitter_username:
-github_username:
+twitter_username: hausanlp
+github_username: hausanlp
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: # true, false (default)
 search_full_content: false # true, false (default)
