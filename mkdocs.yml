@@ -1,0 +1,12 @@
+site_name: AfriSenti SemEval
+site_url: https://afrisenti.github.io
+theme:
+    name: mkdocs
+nav:
+    - Home: index.md
+    - competitions: competitions.md
+    - Datasets: Datasets.md
+    - Baselines: baselines.md
+    - Paper Instructions: paper.md
+    - Results: results.md
+    - Organizers: organizer.md
