@@ -1,47 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://afrisenti-semeval.github.io/</loc>
+         <loc>https://example.com/</loc>
          <lastmod>2022-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://afrisenti-semeval.github.io/Datasets/</loc>
+         <loc>https://example.com/about/</loc>
          <lastmod>2022-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://afrisenti-semeval.github.io/Results/</loc>
+         <loc>https://example.com/baselines/</loc>
          <lastmod>2022-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://afrisenti-semeval.github.io/about/</loc>
+         <loc>https://example.com/datasets/</loc>
          <lastmod>2022-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://afrisenti-semeval.github.io/baselines/</loc>
+         <loc>https://example.com/faqs/</loc>
          <lastmod>2022-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://afrisenti-semeval.github.io/competitions/</loc>
+         <loc>https://example.com/organizer/</loc>
          <lastmod>2022-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://afrisenti-semeval.github.io/faqs/</loc>
+         <loc>https://example.com/paper/</loc>
          <lastmod>2022-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://afrisenti-semeval.github.io/organizers/</loc>
-         <lastmod>2022-07-09</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://afrisenti-semeval.github.io/paper/</loc>
+         <loc>https://example.com/participation/</loc>
          <lastmod>2022-07-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
