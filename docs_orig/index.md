@@ -30,10 +30,6 @@ Given a combined training data from 10 African languages, determine whether a tw
 
 Given unlabeled tweets in two African languages (Tigrinya and isiZulu,leverage any or all of the available training datasets in Subtasks 1 and 2 to determine whether an instance of tweet in the two target languages is positive, negative, or neutral.
 
-## Previous Shared Tasks
-
-
-
 ## **Dataset Examples**
 
 The dataset involves tweets labeled with three sentiment classes (positive, negative, neutral) in 12 African languages. Each tweet is annotated by three annotators. We use a form of majority vote to determine the sentiment of the tweet. See more in our paper: Below is a sample dataset in all the languages:
@@ -65,6 +61,14 @@ The datasets are available on [Github](https://github.com/afrisenti-semeval/afri
 - Task Slack Channel
 - Task Organizers email
 
+
+## References
+
+   1. paper 1
+   2. paper 2
+   3. paper 3
+   4. paper 4
+   5. paper 5
 
 
 <style>
