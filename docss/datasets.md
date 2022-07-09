@@ -21,7 +21,15 @@ Below is a statistic of the dataset in all the 12 languages.
 
 
 
-## Dataset Sample
+## Trail Data
+
+The trial data is available here. 
+
+
+## Training Data
+
+The training data is available here. 
+
 
 ## Hyrdating Tweets
 
