@@ -1,0 +1,11 @@
+site_name: AfriSenti SemEval
+site_url: https://example.com/
+theme:
+    name: mkdocs
+nav:
+    - Home: index.md
+    - competitions: participation.md
+    - Datasets: datasets.md
+    - Baselines: baselines.md
+    - Paper Instructions: paper.md
+    - Organizers: organizer.md
