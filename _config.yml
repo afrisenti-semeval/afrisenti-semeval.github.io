@@ -59,8 +59,6 @@ menu:
     url:               /about/
   - title:             Organizers
     url:               /about/
-  - title:             FAQ
-    url:               /about/
   - title:             Results
     url:               /about/
   - title:             Paper Instructions
@@ -69,8 +67,8 @@ menu:
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSE
-    url:               /LICENSE/
+  - title:             FAQ
+    url:               /about/
   - title:             NOTICE
     url:               /NOTICE/
   - title:             CHANGELOG
@@ -209,7 +207,7 @@ hydejack:
   no_push_state:       false
 
   # Set to `true` if you want to disable the drawer
-  no_drawer:           true
+  no_drawer:           false
 
   # Set to `true` if you don't to use the auto-hiding (JavaScript based) navbar.
   # Note that this will not hide the navbar completely, only replace it with a static one.
