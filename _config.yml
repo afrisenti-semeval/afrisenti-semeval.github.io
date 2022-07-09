@@ -49,11 +49,21 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
+  - title:             Welcome
     url:               /example/
-  - title:             Documentation
+  - title:             Competitiion
     url:               /docs/
-  - title:             About
+  - title:             Dataset
+    url:               /about/
+  - title:             Baseline
+    url:               /about/
+  - title:             Organizers
+    url:               /about/
+  - title:             FAQ
+    url:               /about/
+  - title:             Results
+    url:               /about/
+  - title:             Paper Instructions
     url:               /about/
 
 # Add links to the footer.
@@ -67,7 +77,7 @@ legal:
     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2021. All rights reserved.
+copyright:             © 2022. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -204,12 +214,12 @@ hydejack:
   # Set to `true` if you don't to use the auto-hiding (JavaScript based) navbar.
   # Note that this will not hide the navbar completely, only replace it with a static one.
   # Use custom css to hide completely, e.g. `#_navbar { display: none }`.
-  no_navbar:           false
+  no_navbar:           true
 
   # Set to true to disable the built-in search functionality.
   # Note that search is disabled during local use to save on build time.
   # Run Jekyll with the `JEKYLL_ENV` environment variable set to `production` to enable.
-  no_search:           false
+  no_search:           true
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This will increase site build speed dramatically!
