@@ -4,8 +4,7 @@ theme:
     name: mkdocs
 nav:
     - Home: index.md
-    - competitions: participation.md
-    - Datasets: datasets.md
+    - Participation: participation.md
     - Baselines: baselines.md
     - Paper Instructions: paper.md
     - Organizers: organizer.md

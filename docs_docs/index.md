@@ -2,6 +2,8 @@
 
 #   **AfriSenti-SemEval Shared Task 12** 
 AfriSenti-SemEval: Sentiment Analysis for Low-resource African Languages using Twitter Dataset
+
+> [afrisenti-semeval@googlegroups.com](afrisenti-semeval@googlegroups.com)
 </center>
 ---
 
@@ -11,7 +13,7 @@ Due to the widespread use of the Internet and social media platforms, most langu
 intelligence (AI) applications that enable tasks such as sentiment analysis, machine translation, hateful content detection, among others. According to UNESCO (2003), 30% of all living languages, around 2,058, are African languages. However, most of these languages do not have curated datasets for developing such AI applications. Recently, various individual and funded initiatives, such as the Lacuna Fund, have set out to reverse
 this trend and create such datasets for African languages. However, research is required to determine both the suitability of current natural language processing (NLP) techniques and the development of novel techniques to maximize the applications of such datasets. We believe that SemEval is the right venue, due to its popularity and widespread acceptance, to carry out shared tasks in these African languages to strengthen their further development.
 
-In this shared task, we have covered 12 African languages, namely 4 languages from Nigeria ([Hausa](https://en.wikipedia.org/wiki/Hausa_language), [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language), [Igbo](https://en.wikipedia.org/wiki/Igbo_language), [Nigerian Pigdin](https://en.wikipedia.org/wiki/Nigerian_Pidgin)), 2 from Ethiopia ([Amharic](https://en.wikipedia.org/wiki/Amharic) and [Tigrinya](https://en.wikipedia.org/wiki/Tigrinya_language)), [Swahili](https://en.wikipedia.org/wiki/Swahili_language) from Kenya and Tanzania,  [Algerian Arabic](https://en.wikipedia.org/wiki/Algerian_Arabic) dialect from Algeria, [Tunisian Arabizi](https://en.wikipedia.org/wiki/Tunisian_Arabic) from Tunisia, [Twi](https://en.wikipedia.org/wiki/Twi) from Ghana, and 2 languages from South Africa ([isiZulu](https://en.wikipedia.org/wiki/Zulu_language), [Setswana](https://en.wikipedia.org/wiki/Tswana_language)).
+In this shared task, we have covered 13 African languages, namely 4 languages from Nigeria ([Hausa](https://en.wikipedia.org/wiki/Hausa_language), [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language), [Igbo](https://en.wikipedia.org/wiki/Igbo_language), [Nigerian Pigdin](https://en.wikipedia.org/wiki/Nigerian_Pidgin)), 2 from Ethiopia ([Amharic](https://en.wikipedia.org/wiki/Amharic) and [Tigrinya](https://en.wikipedia.org/wiki/Tigrinya_language)), [Swahili](https://en.wikipedia.org/wiki/Swahili_language) from Kenya and Tanzania,  [Algerian Arabic](https://en.wikipedia.org/wiki/Algerian_Arabic) dialect from Algeria, [Tunisian Arabizi](https://en.wikipedia.org/wiki/Tunisian_Arabic) from Tunisia, [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda), [Twi](https://en.wikipedia.org/wiki/Twi) from Ghana, and 2 languages from South Africa ([isiZulu](https://en.wikipedia.org/wiki/Zulu_language), [Setswana](https://en.wikipedia.org/wiki/Tswana_language)). We are also working on adding more languages to the shared task.
 
 
 
@@ -21,7 +23,8 @@ Previous shared tasks on different aspects of sentiment analysis includes <cite>
 
 The **AfriSenti-SemEval Shared Task 12** consists of three sub-tasks. Participants can select one or more tasks depending on their preference. 
 
-> **Task A: Monolingual Sentiment Classification:**
+> **Task A: Monolingual Sentiment Classification**
+
 > Given training data in a target language, determine whether an instance of tweet in that language is positive, negative, or neutral
 
 > **Task B: Sentiment  Multilingual Sentiment Classification**
@@ -30,7 +33,7 @@ Given a combined training data from 10 African languages, determine whether a tw
 
 > **Task C: Zero-Shot Sentiment Classification**
 
-Given unlabeled tweets in two African languages (Tigrinya and isiZulu), leverage any or all of the available training datasets in Subtasks 1 and 2 to determine whether an instance of a tweet in the two target languages is positive, negative, or neutral.
+Given unlabeled tweets in two African languages (Tigrinya and Kinyarwanda), leverage any or all of the available training datasets in Subtasks 1 and 2 to determine whether an instance of a tweet in the two target languages is positive, negative, or neutral.
 
 ## **Dataset Examples**
 
@@ -60,9 +63,8 @@ The datasets are available on [Github](https://github.com/afrisenti-semeval/afri
 
 ## **Communication**
 
-- Task Mailing List 
-- Task Slack Channel
-- Task Organizers email
+- [Task Mailing List](afrisenti-semeval@googlegroups.com) 
+- Join [Masakhane's](https://www.masakhane.io) [Slack](https://join.slack.com/t/masakhane-nlp/shared_invite/zt-1cg72ed5u-01xYqGd1MdXcbSEvZ435YA) and join Afrisenti channel to communicate with other participants.
 
 
 ## References

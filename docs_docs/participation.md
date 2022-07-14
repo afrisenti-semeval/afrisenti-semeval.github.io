@@ -1,0 +1,47 @@
+## **How to Participate**
+
+
+- The organisers have defined [three-subtasks](https://afrisenti-semeval.github.io/#:~:text=Task%20A%3A%20Monolingual%20Sentiment%20Classification%3A%20Given,target%20languages%20is%20positive%2C%20negative%2C%20or%20neutral.) 
+and will released the training data. Participants can work on any or all the subtasks.
+
+- The Participants can form a team with multiple people or a single person team is okay.
+
+- The participants can experiment with the training data to develop models. Usage of any external data or resource is allowed and highly encouraged. This process can run till the evaluation period.
+
+- Evaluation period: Organisers will release the test set containing instances without the labels. The participants will use their developed models to predict the labels for the instances and they have to create a submission file that follows exactly the same format of the training data. These prediction files should be submitted to Codalab submission portal (will be announced later). These predictions will be compared against the ground truth labels of the test data and the teams will be ranked on a leaderboard according to the performance score.
+
+- Each team is encouraged to write a system description paper describing their submission system, analysis of their results, interesting insights and submit before date. Paper submission procedure will be announced later. After a review period, each team has to update their submitted paper based on the review feedback and submit the camera ready version. Accepted papers will be published as part of the proceedings of SemEval 2023 Workshop (link).
+
+- To connect with the organisers or other participants about any questions or discussions, participants can join the [Task Mailing List](afrisenti-semeval@googlegroups.com) 
+
+
+## **Training Data Format**
+
+AfriSentiEval 2022 featured datasets in thirteen African languages namely: Hausa, Yoruba, Igbo, Nigerian-Pidgin, Swahili, Amharic, Tunisian Arabizi, Kinyarwanda, Algerian Arabic dialect, Tigrinya, Twi, isiZulu, Setswana. 
+
+Twitter has a [strong policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy) for public distribuition of user data and allow only sharing of TweetsIDs. Therefore, we will not be able to provide the full text of the tweets. Instead, we will realese the dataset with the following metadata for each language: tweet ids and the annotation labels. Below is an example of the dataset.
+
+ tweetIDs | labels | 
+--- | --- |
+ 1329755580903415808 | negative |
+ 1387857032523489280 | negative | 
+ 1177449493844787200 | positive | 
+ 1082503529007403008 | neutral | 
+
+We will provide a script to allow hydrating all the tweets in our dataset. Check the [Github repository](https://github.com/afrisenti-semeval/afrisent-semeval-dataset) for more details.
+
+## **Evaluation**
+
+We will use the AvgRec, Accuracy, and macro-average F1 measures for model evaluation. AvgRec, which provides results in a range of [0,1] favoured over standard accuracy because it is more robust to class imbalance (usually more natural classes than positive or negative as it can be seen in our Amharic dataset class distribution). Although accuracy reports the overall performance of the system, the F1 metric is calculated over the POSITIVE and the NEGATIVE classes exclusively.
+
+## **Results**
+
+The Evaluation phase of Afri-Senti-SemEval 2023 will start on January 10, 2023 and end on 31 January 2023. The Evaluation results and rankings will be notified in this page. We will list the usernames as they appear on CodaLab and the F1 score of your LAST submission. 
+
+
+
+<style>
+body {
+text-align: justify}
+</style>
+
