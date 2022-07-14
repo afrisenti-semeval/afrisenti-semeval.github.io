@@ -91,12 +91,17 @@
               </ul>
             </li>
             
+            <li class="nav-item" data-level="2"><a href="#sample-data" class="nav-link">Sample Data</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
             <li class="nav-item" data-level="2"><a href="#baseline" class="nav-link">Baseline</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="2"><a href="#submission-page" class="nav-link">Submission Page</a>
+            <li class="nav-item" data-level="2"><a href="#submission-website" class="nav-link">Submission Website</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -172,13 +177,15 @@ and will released the training data. Participants can work on any or all the sub
 </tbody>
 </table>
 <p>We will provide a script to allow hydrating all the tweets in our dataset. Check the <a href="https://github.com/afrisenti-semeval/afrisent-semeval-dataset">Github repository</a> for more details.</p>
-<h2 id="baseline">Baseline</h2>
+<h2 id="sample-data"><strong>Sample Data</strong></h2>
+<p>We provide a sample dataset for the shared task. Check the <a href="https://github.com/afrisenti-semeval/afrisent-semeval-dataset">Github repository</a>.</p>
+<h2 id="baseline"><strong>Baseline</strong></h2>
 <p>We provide baseline based on the following two papers: </p>
 <ol>
 <li>Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Said Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jeorge, Pavel Brazdil. 2022, NaijaSenti: A Nigerian Twitter Sentiment Corpus for Multilingual Sentiment Analysis, Marseille, France</li>
 <li>Seid Muhie Yimam, Hizkiel Mitiku Alemayehu, Abinew Ayele, Chris Biemann. 2020: Exploring Amharic Sentiment Analysis from Social Media Texts: Building Annotation Tools and Classification Models, Barcelona, Spain (Online)</li>
 </ol>
-<h2 id="submission-page"><strong>Submission Page</strong></h2>
+<h2 id="submission-website"><strong>Submission Website</strong></h2>
 <p>We will be accepting and evaluating your submissions on <a href="https://codalab.lisn.upsaclay.fr">CodaLab</a>. The submission page will be available soon!</p>
 <h2 id="evaluation"><strong>Evaluation</strong></h2>
 <p>We will use the AvgRec, Accuracy, and macro-average F1 measures for model evaluation. AvgRec, which provides results in a range of [0,1] favoured over standard accuracy because it is more robust to class imbalance (usually more natural classes than positive or negative as it can be seen in our Amharic dataset class distribution). Although accuracy reports the overall performance of the system, the F1 metric is calculated over the POSITIVE and the NEGATIVE classes exclusively.</p>

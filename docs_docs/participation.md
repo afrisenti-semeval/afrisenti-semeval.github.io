@@ -30,6 +30,9 @@ Twitter has a [strong policy](https://developer.twitter.com/en/developer-terms/a
 
 We will provide a script to allow hydrating all the tweets in our dataset. Check the [Github repository](https://github.com/afrisenti-semeval/afrisent-semeval-dataset) for more details.
 
+## **Sample Data**
+
+We provide a sample dataset for the shared task. Check the [Github repository](https://github.com/afrisenti-semeval/afrisent-semeval-dataset).
 ## **Baseline**
 
 We provide baseline based on the following two papers: 
