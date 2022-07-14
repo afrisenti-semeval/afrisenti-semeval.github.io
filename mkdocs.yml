@@ -5,6 +5,5 @@ theme:
 nav:
     - Home: index.md
     - Participation: participation.md
-    - Baselines: baselines.md
-    - Paper Instructions: paper.md
+    - Resources: Resources.md
     - Organizers: organizer.md

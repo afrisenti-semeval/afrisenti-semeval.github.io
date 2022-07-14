@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://example.com/Resources/</loc>
+         <lastmod>2022-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://example.com/about/</loc>
          <lastmod>2022-07-14</lastmod>
          <changefreq>daily</changefreq>
@@ -27,11 +32,6 @@
     </url>
     <url>
          <loc>https://example.com/organizer/</loc>
-         <lastmod>2022-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://example.com/paper/</loc>
          <lastmod>2022-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>

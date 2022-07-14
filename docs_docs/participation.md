@@ -30,15 +30,31 @@ Twitter has a [strong policy](https://developer.twitter.com/en/developer-terms/a
 
 We will provide a script to allow hydrating all the tweets in our dataset. Check the [Github repository](https://github.com/afrisenti-semeval/afrisent-semeval-dataset) for more details.
 
+## **Baseline**
+
+We provide baseline based on the following two papers: 
+
+ 1. Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Said Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jeorge, Pavel Brazdil. 2022, NaijaSenti: A Nigerian Twitter Sentiment Corpus for Multilingual Sentiment Analysis, Marseille, France
+ 2. Seid Muhie Yimam, Hizkiel Mitiku Alemayehu, Abinew Ayele, Chris Biemann. 2020: Exploring Amharic Sentiment Analysis from Social Media Texts: Building Annotation Tools and Classification Models, Barcelona, Spain (Online)
+
+## **Submission Website**
+
+We will be accepting and evaluating your submissions on [CodaLab](https://codalab.lisn.upsaclay.fr). The submission page will be available soon!
+
+
 ## **Evaluation**
 
 We will use the AvgRec, Accuracy, and macro-average F1 measures for model evaluation. AvgRec, which provides results in a range of [0,1] favoured over standard accuracy because it is more robust to class imbalance (usually more natural classes than positive or negative as it can be seen in our Amharic dataset class distribution). Although accuracy reports the overall performance of the system, the F1 metric is calculated over the POSITIVE and the NEGATIVE classes exclusively.
+
 
 ## **Results**
 
 The Evaluation phase of Afri-Senti-SemEval 2023 will start on January 10, 2023 and end on 31 January 2023. The Evaluation results and rankings will be notified in this page. We will list the usernames as they appear on CodaLab and the F1 score of your LAST submission. 
 
 
+## **System Description Papers**
+
+Participants who made a submission on the CodaLab website during the official evaluation period are given the opportunity to submit a system-description paper that describes their system, resources used, results, and analysis. This paper will be part of the official SemEval-2023 proceedings. We will share updates regarding the submission procedure.
 
 <style>
 body {
