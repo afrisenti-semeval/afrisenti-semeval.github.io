@@ -13,7 +13,8 @@ Below is a list of organizers for AfriSenti-Shared Task 2022
 | Vukosi Marivate | University of Pretoria; MasaKhane |
 | Sebastian Ruder   | Google Research |
 | Nedjma Ousidhoum  | The University of Cambridge |
-| Meriem Beloucif U | Universität Hamburg |
+| Meriem Beloucif | Uppsala University |
+| Tadesse Destaw Belay | Wollo University, Dessie |
 
 
 
