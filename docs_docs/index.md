@@ -65,6 +65,7 @@ The datasets are available on [Github](https://github.com/afrisenti-semeval/afri
 
 - [Task Mailing List](afrisenti-semeval@googlegroups.com) 
 - Join [Masakhane's](https://www.masakhane.io) [Slack](https://join.slack.com/t/masakhane-nlp/shared_invite/zt-1cg72ed5u-01xYqGd1MdXcbSEvZ435YA) and join #Afrisenti channel to communicate with other participants.
+- If you are attending Deep Indaba2022, we will present a poster. Come and chat with us more about the task.
 
 
 ## References

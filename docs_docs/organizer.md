@@ -8,6 +8,7 @@ Below is a list of organizers for AfriSenti-Shared Task 2022
 |Seid Muhie Yimam Universität Hamburg|  Universität Hamburg, Hamburg; Masakhane|
 | Idris Abdulmumin  | Ahmadu Bello UniversityZaria, Masakhane|
 | Ibrahim Sa’id Ahmad |  Bayero University, Kano |
+| [Saif Mohammad](https://www.saifmohammad.com) |  National Research Council Canada (NRC |
 | Abinew Ali Ayele  | Bahir Dar University, Bahir Dar |
 | David Ifeoluwa Adelani  | Saarland University, MasaKhane |
 | Vukosi Marivate | University of Pretoria; MasaKhane |
