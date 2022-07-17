@@ -3,7 +3,7 @@
 #   **AfriSenti-SemEval Shared Task 12** 
 AfriSenti-SemEval: Sentiment Analysis for Low-resource African Languages using Twitter Dataset
 
-> Contact organizers at: [afrisenti-semeval-organizers@googlegroups.com](mailto:afrisenti-semeval@googlegroups.com)
+> Contact organizers at: [afrisenti-semeval-organizers@googlegroups.com](mailto:afrisenti-semeval-organizers@googlegroups.com)
 
 </center>
 
