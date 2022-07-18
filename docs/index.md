@@ -74,17 +74,11 @@ The datasets are available on [Github](https://github.com/afrisenti-semeval/afri
 - Join [Masakhane's](https://www.masakhane.io) [Slack](https://join.slack.com/t/masakhane-nlp/shared_invite/zt-1cg72ed5u-01xYqGd1MdXcbSEvZ435YA) and join #Afrisenti channel to communicate with other participants.
 - If you are attending Deep Indaba 2022, we will present a poster on AfriSenti SemEval. Come and chat with us to know more about the task.
 
-## **Ethical Consideration**
-
-
 ## **Related Past Shared Tasks on Sentiment Analysis in Twitter**
 
-1. [SemEval-2017 Task 4 : Sentiment Analysis in Twitter](https://alt.qcri.org/semeval2017/task4/)
-2. [SemEval-2016 Task 4: Sentiment Analysis in Twitter](https://alt.qcri.org/semeval2016/task4/)
-3. [SemEval-2015 Task 10 : Sentiment Analysis in Twitter](https://alt.qcri.org/semeval2015/task10/)
-4. [SemEval-2014 Task 9: Sentiment Analysis in Twitter](https://alt.qcri.org/semeval2014/task9/)
-5. [SemEval-2013 Task 2: Sentiment Analysis in Twitter](https://aclanthology.org/S13-2052/)
-6. These are shared tasks on Sentiment Analysis in Twitter in only  Spanish [TASS-2017](http://www.sepln.org/workshops/tass/2017/), [TASS-2016](http://www.sepln.org/workshops/tass/2016/tass2016.php), [TASS-2015](http://www.sepln.org/workshops/tass/2015/tass2015.php), [TASS-2014](http://www.sepln.org/workshops/tass/2014/tass2014.php), [TASS-2013](https://competitions.codalab.org/competitions/17751#learn_the_details-overview), [TASS-2012](http://www.sepln.org/workshops/tass/2012/tasks.php).
+1. Shared tasks in English:[SemEval-2017](https://alt.qcri.org/semeval2017/task4/),[SemEval-2016](https://alt.qcri.org/semeval2016/task4/),[SemEval-2015](https://alt.qcri.org/semeval2015/task10/),[SemEval-2014](https://alt.qcri.org/semeval2014/task9/),[SemEval-2013](https://aclanthology.org/S13-2052/)
+
+2. Shared tasks in Spanish [TASS-2017](http://www.sepln.org/workshops/tass/2017/),[TASS-2016](http://www.sepln.org/workshops/tass/2016/tass2016.php),[TASS-2015](http://www.sepln.org/workshops/tass/2015/tass2015.php),[TASS-2014](http://www.sepln.org/workshops/tass/2014/tass2014.php),[TASS-2013](https://competitions.codalab.org/competitions/17751#learn_the_details-overview),[TASS-2012](http://www.sepln.org/workshops/tass/2012/tasks.php).
 
 
 ## References
