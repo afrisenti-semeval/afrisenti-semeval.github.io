@@ -87,16 +87,6 @@ The datasets are available on [Github](https://github.com/afrisenti-semeval/afri
 6. These are shared tasks on Sentiment Analysis in Twitter in only  Spanish [TASS-2017](http://www.sepln.org/workshops/tass/2017/), [TASS-2016](http://www.sepln.org/workshops/tass/2016/tass2016.php), [TASS-2015](http://www.sepln.org/workshops/tass/2015/tass2015.php), [TASS-2014](http://www.sepln.org/workshops/tass/2014/tass2014.php), [TASS-2013](https://competitions.codalab.org/competitions/17751#learn_the_details-overview), [TASS-2012](http://www.sepln.org/workshops/tass/2012/tasks.php).
 7. 
 
-
-
-
-8. 
-9. 
-
-
-. 
-
-
 ## References
 
    1. UNESCO. 2003. Sharing the world of difference. UNESCO.
