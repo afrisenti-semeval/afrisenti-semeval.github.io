@@ -74,7 +74,7 @@ The datasets are available on [Github](https://github.com/afrisenti-semeval/afri
 - Join [Masakhane's](https://www.masakhane.io) [Slack](https://join.slack.com/t/masakhane-nlp/shared_invite/zt-1cg72ed5u-01xYqGd1MdXcbSEvZ435YA) and join #Afrisenti channel to communicate with other participants.
 - If you are attending Deep Indaba 2022, we will present a poster on AfriSenti SemEval. Come and chat with us to know more about the task.
 
-## **Related Past Shared Tasks on Sentiment Analysis in Twitter**
+## **Related Shared Tasks on Sentiment Analysis in Twitter**
 
 1. Shared tasks in English:[SemEval-2017](https://alt.qcri.org/semeval2017/task4/),[SemEval-2016](https://alt.qcri.org/semeval2016/task4/),[SemEval-2015](https://alt.qcri.org/semeval2015/task10/),[SemEval-2014](https://alt.qcri.org/semeval2014/task9/),[SemEval-2013](https://aclanthology.org/S13-2052/)
 
