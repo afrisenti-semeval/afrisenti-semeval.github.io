@@ -89,17 +89,12 @@
               </ul>
             </li>
             
-            <li class="nav-item" data-level="2"><a href="#training-data-format" class="nav-link">Training Data Format</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
             <li class="nav-item" data-level="2"><a href="#trial-data" class="nav-link">Trial Data</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="2"><a href="#baseline" class="nav-link">Baseline</a>
+            <li class="nav-item" data-level="2"><a href="#training-data" class="nav-link">Training Data</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -144,49 +139,17 @@ and will release the training data. Participants can work on any or all of the s
 <p>Evaluation period: Organisers will release the test set containing instances without the labels. The participants will use their developed models to predict the labels for the instances, and they have to create a submission file that follows exactly the same format as the training data. These prediction files should be submitted to Codalab submission portal (will be announced later). These predictions will be compared against the ground truth labels of the test data and the teams will be ranked on a leaderboard according to the performance score.</p>
 </li>
 <li>
-<p>Each team is encouraged to write a system description paper describing their submission system, including interesting insights, and submit it before the due date. After a review period, each team has to update their submitted paper based on the review feedback and submit the camera-ready version. Accepted papers will be published as part of the proceedings of the SemEval 2023 Workshop (link).
-.</p>
+<p>Each team is encouraged to write a system description paper describing their submission system, including interesting insights, and submit it before the due date. After a review period, each team has to update their submitted paper based on the review feedback and submit the camera-ready version. Accepted papers will be published as part of the proceedings of the SemEval 2023 Workshop (link).</p>
 </li>
 </ul>
-<h2 id="training-data-format"><strong>Training Data Format</strong></h2>
-<p>AfriSentiEval 2022 featured datasets in thirteen African languages, namely: Hausa, Yoruba, Igbo, Nigerian-Pidgin, Swahili, Amharic, Tunisian Arabizi, Kinyarwanda, Algerian Arabic dialect, Tigrinya, Twi, isiZulu, Setswana. </p>
-<p>Twitter has a <a href="https://developer.twitter.com/en/developer-terms/agreement-and-policy">strong policy</a> for public distribuition of user data and allows only the sharing of TweetsIDs
- allow only sharing of TweetsIDs. Therefore, we will not be able to provide the full text of the tweets. Instead, we will realease the dataset with the following metadata for each language: tweet ids and the annotation labels. Below is an example of the dataset.</p>
-<table>
-<thead>
-<tr>
-<th>tweetIDs</th>
-<th>labels</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1329755580903415808</td>
-<td>negative</td>
-</tr>
-<tr>
-<td>1387857032523489280</td>
-<td>negative</td>
-</tr>
-<tr>
-<td>1177449493844787200</td>
-<td>positive</td>
-</tr>
-<tr>
-<td>1082503529007403008</td>
-<td>neutral</td>
-</tr>
-</tbody>
-</table>
-<p>We will provide a script to allow hydrating all the tweets in our dataset. Check the <a href="https://github.com/afrisenti-semeval/afrisent-semeval-dataset">Github repository</a> for more details.</p>
 <h2 id="trial-data"><strong>Trial Data</strong></h2>
 <p>We provide a sample dataset for the shared task. Check the <a href="https://github.com/afrisenti-semeval/afrisent-semeval-dataset">Github repository</a>.</p>
-<h2 id="baseline"><strong>Baseline</strong></h2>
-<p>We provide baseline based on the following two papers: </p>
-<ol>
-<li>Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Said Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jeorge, Pavel Brazdil. 2022, NaijaSenti: A Nigerian Twitter Sentiment Corpus for Multilingual Sentiment Analysis, Marseille, France</li>
-<li>Seid Muhie Yimam, Hizkiel Mitiku Alemayehu, Abinew Ayele, Chris Biemann. 2020: Exploring Amharic Sentiment Analysis from Social Media Texts: Building Annotation Tools and Classification Models, Barcelona, Spain (Online)</li>
-</ol>
+<h2 id="training-data"><strong>Training Data</strong></h2>
+<blockquote>
+<blockquote>
+<p>coming soon </p>
+</blockquote>
+</blockquote>
 <h2 id="submission-website"><strong>Submission Website</strong></h2>
 <p>We will be accepting and evaluating your submissions on <a href="https://codalab.lisn.upsaclay.fr">CodaLab</a>. The submission page will be available soon!</p>
 <h2 id="evaluation"><strong>Evaluation</strong></h2>

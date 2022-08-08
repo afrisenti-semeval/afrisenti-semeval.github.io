@@ -33,10 +33,13 @@ These terms and conditions are adapted from [SemEval-2018 Task 1: Affect in Twee
 
 12. The datasets must not be redistributed or shared in part or full with any third party. Redirect interested parties to this website.
 
-13. If you use any of the datasets provided here, cite this paper: ....
+13. If you use any of the datasets provided here, cite this paper: 
 
 
 
+<cite>Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Said Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jeorge, Pavel Brazdil. 2022, NaijaSenti: A Nigerian Twitter Sentiment Corpus for Multilingual Sentiment Analysis, Marseille, France <cite>
+
+<cite> Seid Muhie Yimam, Hizkiel Mitiku Alemayehu, Abinew Ayele, Chris Biemann. 2020: Exploring Amharic Sentiment Analysis from Social Media Texts: Building Annotation Tools and Classification Models, Barcelona, Spain (Online) <cite>
 
 
 <style>
