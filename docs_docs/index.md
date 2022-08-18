@@ -31,6 +31,7 @@ The **AfriSenti-SemEval Shared Task 12** is based on a collection of Twitter dat
 
 > Given training data in a target language, determine the polarity of a tweet in the target language (positive, negative, or neutral). If a tweet 
 For messages conveying both a positive and negative sentiment, whichever is the stronger sentiment should be chosen.
+
 > **Task B: Multilingual Sentiment Classification**
 
 Given a combined training data from 10 African languages, determine the polarity of a tweet in the target language (positive, negative, or neutral)
