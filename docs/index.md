@@ -55,8 +55,8 @@ The datasets are available on [Github](https://github.com/afrisenti-semeval/afri
 
 | Descriptions |  Deadlines |
 | --- | --- |
-| Sample Data Ready  | 15 July 2022 |
-| Training Data Ready | 1 September 2022 |
+| Sample Data Ready  | ~~15 July 2022 |~~
+| Training Data Ready | 12 September 2022 |
 | Evaluation Start  | 10 January 2023|
 | Evaluation End  | 31 January 2023|
 | System Description Paper Due |  February 2023  |
