@@ -46,6 +46,9 @@
                                 <a href="organizer/" class="nav-link">Organizers</a>
                             </li>
                             <li class="navitem">
+                                <a href="datasets/" class="nav-link">Datasets</a>
+                            </li>
+                            <li class="navitem">
                                 <a href="Terms/" class="nav-link">Terms</a>
                             </li>
                             <li class="navitem">
@@ -129,9 +132,10 @@
 <p>AfriSenti-SemEval: Sentiment Analysis for Low-resource African Languages using Twitter Dataset</p>
 <blockquote>
 <p>Contact organizers at: <a href="mailto:afrisenti-semeval-organizers@googlegroups.com">afrisenti-semeval-organizers@googlegroups.com</a></p>
-<p>Join <a href="https://join.slack.com/t/afrisenti-semeval/shared_invite/zt-1fds98x1u-L3c~bpBI91IWRD80_Fy23Q">Task Slack Channel</a> to communicate with the organizers.
-</center></p>
+<p>Join <a href="https://join.slack.com/t/afrisenti-semeval/shared_invite/zt-1fds98x1u-L3c~bpBI91IWRD80_Fy23Q">Task Slack Channel</a> to communicate with the organizers.</p>
 </blockquote>
+<p><font size=5>   <span style="color: red;">Training Data will be released on 12 September, 2022</span> </font> 
+</center></p>
 <hr />
 <h2 id="motivation"><strong>Motivation</strong></h2>
 <p>Due to the widespread use of the Internet and social media platforms, most languages are becoming digitally available. This allows for various artificial
@@ -139,20 +143,43 @@ intelligence (AI) applications that enable tasks such as sentiment analysis, mac
 this trend and create such datasets for African languages. However, research is required to determine both the suitability of current natural language processing (NLP) techniques and the development of novel techniques to maximize the applications of such datasets.</p>
 <p>There has been a growing interest in sentiment analysis which applies to many domains, including public health, commerce/business, art and literature, social sciences, neuroscience,
 and psychology (<cite>Mohammad, Saif M, 2022</cite>). Previous shared tasks on sentiment analysis include <cite>Mohammad, Saif M et al., (2018), Nakov et al., (2016), Pontiki et al., Ghosh et al., (2015), (2014), and so on </cite> . However, none of these tasks included African languages. Though <cite> Mohammad, Saif, et al. (2018)</cite> included standard Arabic, we focus on Arabic dialects from African countries: <cite>Algerian Arabic</cite> and <cite>Tunisian Arabizi</cite>. We believe SemEval is the right venue, due to its popularity and widespread acceptance, to carry out shared tasks for African languages to strengthen their further development. </p>
-<p>In this shared task, we have covered 13 African languages, 4 languages from Nigeria (<a href="https://en.wikipedia.org/wiki/Hausa_language">Hausa</a>, <a href="https://en.wikipedia.org/wiki/Yoruba_language">Yoruba</a>, <a href="https://en.wikipedia.org/wiki/Igbo_language">Igbo</a>, <a href="https://en.wikipedia.org/wiki/Nigerian_Pidgin">Nigerian Pigdin</a>), 2 from Ethiopia (<a href="https://en.wikipedia.org/wiki/Amharic">Amharic</a> and <a href="https://en.wikipedia.org/wiki/Tigrinya_language">Tigrinya</a>), <a href="https://en.wikipedia.org/wiki/Swahili_language">Swahili</a> from Kenya and Tanzania,  <a href="https://en.wikipedia.org/wiki/Algerian_Arabic">Algerian Arabic</a> dialect from Algeria, <a href="https://en.wikipedia.org/wiki/Tunisian_Arabic">Tunisian Arabizi</a> from Tunisia, <a href="https://en.wikipedia.org/wiki/Kinyarwanda">Kinyarwanda</a>, <a href="https://en.wikipedia.org/wiki/Twi">Twi</a> from Ghana, and 2 languages from South Africa (<a href="https://en.wikipedia.org/wiki/Zulu_language">isiZulu</a>, <a href="https://en.wikipedia.org/wiki/Tswana_language">Setswana</a>). We are also working on adding more languages to the shared task.</p>
+<p>In this shared task, we have covered 13 African languages, 4 languages from Nigeria (<a href="https://en.wikipedia.org/wiki/Hausa_language">Hausa</a>, <a href="https://en.wikipedia.org/wiki/Yoruba_language">Yoruba</a>, <a href="https://en.wikipedia.org/wiki/Igbo_language">Igbo</a>, <a href="https://en.wikipedia.org/wiki/Nigerian_Pidgin">Nigerian Pigdin</a>), 2 from Ethiopia (<a href="https://en.wikipedia.org/wiki/Amharic">Amharic</a> and <a href="https://en.wikipedia.org/wiki/Tigrinya_language">Tigrinya</a>), <a href="https://en.wikipedia.org/wiki/Swahili_language">Swahili</a> from Kenya and Tanzania,  <a href="https://en.wikipedia.org/wiki/Algerian_Arabic">Algerian Arabic</a> dialect from Algeria, <a href="https://en.wikipedia.org/wiki/Kinyarwanda">Kinyarwanda</a> from Ruwanda, <a href="https://en.wikipedia.org/wiki/Twi">Twi</a> from Ghana, Mozambican Portuguese from <a href="https://www.google.com/search?client=safari&amp;rls=en&amp;q=Mozabique+portuguess&amp;ie=UTF-8&amp;oe=UTF-8">Mozambique</a> and 3 languages from South Africa (<a href="https://en.wikipedia.org/wiki/Zulu_language">isiZulu</a>, <a href="https://en.wikipedia.org/wiki/Tswana_language">Setswana</a> and Tsonga (https://en.wikipedia.org/wiki/Tsonga_language).</p>
 <h2 id="task-overview"><strong>Task Overview</strong></h2>
 <p>The <strong>AfriSenti-SemEval Shared Task 12</strong> is based on a collection of Twitter datasets in 13 African languages for sentiment classification. It consists of three sub-tasks. Participants can select one or more tasks depending on their preference. </p>
 <blockquote>
 <p><strong>Task A: Monolingual Sentiment Classification</strong></p>
 <p>Given training data in a target language, determine the polarity of a tweet in the target language (positive, negative, or neutral). If a tweet 
-For messages conveying both a positive and negative sentiment, whichever is the stronger sentiment should be chosen.</p>
+For messages conveying both a positive and negative sentiment, whichever is the stronger sentiment should be chosen. This sub-task has 12 tracks:</p>
+</blockquote>
+<ul>
+<li>Track- 1: Hausa Language</li>
+<li>Track- 2: Yoruba_language</li>
+<li>Track- 3: Igbo language</li>
+<li>Track- 4: Nigerian_Pidgin</li>
+<li>Track- 5: Amharic</li>
+<li>Track- 6: Algerian Arabic</li>
+<li>Track- 7: Kinyarwanda</li>
+<li>Track- 8: Twi</li>
+<li>Track- 9: Mozambican Portuguese</li>
+<li>Track- 10:Swahili </li>
+<li>Track- 11: Setswana</li>
+<li>Track- 12: isiZulu</li>
+</ul>
+<blockquote>
 <p><strong>Task B: Multilingual Sentiment Classification</strong></p>
 </blockquote>
-<p>Given a combined training data from 10 African languages, determine the polarity of a tweet in the target language (positive, negative, or neutral)</p>
+<p>Given a combined training data from 10 African languages, determine the polarity of a tweet in the target language (positive, negative, or neutral). This sub-task has only one track:</p>
+<ul>
+<li>Track 13 : All languages in Task A</li>
+</ul>
 <blockquote>
 <p><strong>Task C: Zero-Shot Sentiment Classification</strong></p>
 </blockquote>
-<p>Given unlabeled tweets in two African languages (Tigrinya and Kinyarwanda), leverage any or all of the available training datasets in Subtasks 1 and 2 to determine the sentiment of a tweet in the two target languages is positive, negative, or neutral.</p>
+<p>Given unlabeled tweets in two African languages (Tigrinya and Xithonga), leverage any or all of the available training datasets in Subtasks 1 and 2 to determine the sentiment of a tweet in the two target languages is positive, negative, or neutral. This task has two tracks</p>
+<ul>
+<li>Track 14 : Zero-Shot on Tigrinya</li>
+<li>Track 15 : Zero-Shot on Tsonga</li>
+</ul>
 <h2 id="dataset-examples"><strong>Dataset Examples</strong></h2>
 <p>The dataset involves tweets labeled with three sentiment classes (positive, negative, neutral) in 12 African languages. Each tweet is annotated by three annotators following the annotation guidelines in (<cite>Mohammad, Saif M, 2016</cite>). We use a form of majority vote to determine the sentiment of the tweet. See more in our paper (<cite>Muhammad et al., 2022</cite>, <cite>Yimam et al., 2020</cite>). Below is a sample dataset for the 4 Nigerian languges (Muhammad et al., 2022):</p>
 <p><img alt="Dataset Example" src="dataset.png" /></p>
@@ -168,11 +195,11 @@ For messages conveying both a positive and negative sentiment, whichever is the 
 <tbody>
 <tr>
 <td>Sample Data Ready</td>
-<td>15 July 2022</td>
+<td>~~15 July 2022~~</td>
 </tr>
 <tr>
 <td>Training Data Ready</td>
-<td>1 September 2022</td>
+<td>12 September 2022</td>
 </tr>
 <tr>
 <td>Evaluation Start</td>
@@ -312,5 +339,5 @@ text-align: justify}
 
 <!--
 MkDocs version : 1.3.0
-Build Date UTC : 2022-09-02 01:03:28.396319+00:00
+Build Date UTC : 2022-09-02 07:53:09.476328+00:00
 -->

@@ -6,6 +6,8 @@ AfriSenti-SemEval: Sentiment Analysis for Low-resource African Languages using T
 > Contact organizers at: [afrisenti-semeval-organizers@googlegroups.com](mailto:afrisenti-semeval-organizers@googlegroups.com)
 
 > Join [Task Slack Channel](https://join.slack.com/t/afrisenti-semeval/shared_invite/zt-1fds98x1u-L3c~bpBI91IWRD80_Fy23Q) to communicate with the organizers.
+
+ <font size=5>   <span style="color: red;">Training Data will be released on 12 September, 2022</span> </font> 
 </center>
 
 ---
@@ -21,7 +23,7 @@ and psychology (<cite>Mohammad, Saif M, 2022</cite>). Previous shared tasks on s
 
 
 
-In this shared task, we have covered 13 African languages, 4 languages from Nigeria ([Hausa](https://en.wikipedia.org/wiki/Hausa_language), [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language), [Igbo](https://en.wikipedia.org/wiki/Igbo_language), [Nigerian Pigdin](https://en.wikipedia.org/wiki/Nigerian_Pidgin)), 2 from Ethiopia ([Amharic](https://en.wikipedia.org/wiki/Amharic) and [Tigrinya](https://en.wikipedia.org/wiki/Tigrinya_language)), [Swahili](https://en.wikipedia.org/wiki/Swahili_language) from Kenya and Tanzania,  [Algerian Arabic](https://en.wikipedia.org/wiki/Algerian_Arabic) dialect from Algeria, [Tunisian Arabizi](https://en.wikipedia.org/wiki/Tunisian_Arabic) from Tunisia, [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda), [Twi](https://en.wikipedia.org/wiki/Twi) from Ghana, and 2 languages from South Africa ([isiZulu](https://en.wikipedia.org/wiki/Zulu_language), [Setswana](https://en.wikipedia.org/wiki/Tswana_language)). We are also working on adding more languages to the shared task.
+In this shared task, we have covered 13 African languages, 4 languages from Nigeria ([Hausa](https://en.wikipedia.org/wiki/Hausa_language), [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language), [Igbo](https://en.wikipedia.org/wiki/Igbo_language), [Nigerian Pigdin](https://en.wikipedia.org/wiki/Nigerian_Pidgin)), 2 from Ethiopia ([Amharic](https://en.wikipedia.org/wiki/Amharic) and [Tigrinya](https://en.wikipedia.org/wiki/Tigrinya_language)), [Swahili](https://en.wikipedia.org/wiki/Swahili_language) from Kenya and Tanzania,  [Algerian Arabic](https://en.wikipedia.org/wiki/Algerian_Arabic) dialect from Algeria, [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda) from Ruwanda, [Twi](https://en.wikipedia.org/wiki/Twi) from Ghana, Mozambican Portuguese from [Mozambique](https://www.google.com/search?client=safari&rls=en&q=Mozabique+portuguess&ie=UTF-8&oe=UTF-8) and 3 languages from South Africa ([isiZulu](https://en.wikipedia.org/wiki/Zulu_language), [Setswana](https://en.wikipedia.org/wiki/Tswana_language) and Tsonga (https://en.wikipedia.org/wiki/Tsonga_language).
 
 ## **Task Overview**
 
@@ -31,15 +33,34 @@ The **AfriSenti-SemEval Shared Task 12** is based on a collection of Twitter dat
 > **Task A: Monolingual Sentiment Classification**
 
 > Given training data in a target language, determine the polarity of a tweet in the target language (positive, negative, or neutral). If a tweet 
-For messages conveying both a positive and negative sentiment, whichever is the stronger sentiment should be chosen.
+For messages conveying both a positive and negative sentiment, whichever is the stronger sentiment should be chosen. This sub-task has 12 tracks:
+
+  - Track- 1: Hausa Language
+  - Track- 2: Yoruba_language
+  - Track- 3: Igbo language
+  - Track- 4: Nigerian_Pidgin
+  - Track- 5: Amharic
+  - Track- 6: Algerian Arabic
+  - Track- 7: Kinyarwanda
+  - Track- 8: Twi
+  - Track- 9: Mozambican Portuguese
+  - Track- 10:Swahili 
+  - Track- 11: Setswana
+  - Track- 12: isiZulu
 
 > **Task B: Multilingual Sentiment Classification**
 
-Given a combined training data from 10 African languages, determine the polarity of a tweet in the target language (positive, negative, or neutral)
+Given a combined training data from 10 African languages, determine the polarity of a tweet in the target language (positive, negative, or neutral). This sub-task has only one track:
+
+ - Track 13 : All languages in Task A
+
 
 > **Task C: Zero-Shot Sentiment Classification**
 
-Given unlabeled tweets in two African languages (Tigrinya and Kinyarwanda), leverage any or all of the available training datasets in Subtasks 1 and 2 to determine the sentiment of a tweet in the two target languages is positive, negative, or neutral.
+Given unlabeled tweets in two African languages (Tigrinya and Xithonga), leverage any or all of the available training datasets in Subtasks 1 and 2 to determine the sentiment of a tweet in the two target languages is positive, negative, or neutral. This task has two tracks
+
+ - Track 14 : Zero-Shot on Tigrinya
+ - Track 15 : Zero-Shot on Tsonga
 
 ## **Dataset Examples**
 
@@ -55,7 +76,7 @@ The datasets are available on [Github](https://github.com/afrisenti-semeval/afri
 
 | Descriptions |  Deadlines |
 | --- | --- |
-| Sample Data Ready  | ~~15 July 2022 |~~
+| Sample Data Ready  | ~~15 July 2022~~ |
 | Training Data Ready | 12 September 2022 |
 | Evaluation Start  | 10 January 2023|
 | Evaluation End  | 31 January 2023|

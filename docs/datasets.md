@@ -1,37 +1,41 @@
-# Competition Dataset
-
-The dataset for the competition is available at the following Github link: [AfriSenti-SemEval Dataset](https://github.com/afrisenti-semeval/afrisent-semeval-dataset)
-
-
-The dataset consists of tweets labeled with three sentiment classes (positive, negative, neutral) in 12 African languages. Each tweet is annotated by three annotators. We use a form of majority vote to determine the sentiment of the tweet. See more in our paper: Below is a sample dataset in all the languages:
-
-
-
-## Dataset Statistics
+# Dataset Statistics
 
 Below is a statistic of the dataset in all the 12 languages.
 
-|Languages| Train| Validation| Test  |
-|------ |-----   |----- |-----|
-| sXYZ   |sBlu| |    z|
-| Jaobe X|Blue|5.2  |     |
-| sXYZ   || |     |
-| Jaobe X||  |     |
+<style>
+table th:first-of-type {
+    width: 0.50%;
+}
+table th:nth-of-type(2) {
+    width: 0.50%;
+}
+table th:nth-of-type(3) {
+    width: 0.50%;
+}
+table th:nth-of-type(4) {
+    width: 0.50%;
+}
+</style>
+
+
+|Languages|Train|Val|Test|
+|------|-----|-----|-----|
+| Hausa|17,716|2,677| -|
+| Yoruba|13,318|2,090|-|
+| Igbo  |12,741|1,841|-|
+| Nigerian-Pidgin|6,719|679|-|
+| Amharic|-|-|-|
+| Swahili|2,263|-|-|
+| Kinyarwanda|-|-|-|
+| Mozabique Portuguess|-|-|-|
+| Twi|-|-|-|
+| Sestswana|-|-|-|
+| Isuzulu |-|-|-|
+| Tigrinya |-|-|-|
 
 
 
 
-## Trail Data
-
-The trial data is available here. 
-
-
-## Training Data
-
-The training data is available here. 
-
-
-## Hyrdating Tweets
 
 
 <style>

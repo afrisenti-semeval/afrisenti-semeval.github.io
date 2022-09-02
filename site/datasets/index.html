@@ -8,7 +8,7 @@
         
         <link rel="canonical" href="https://example.com/datasets/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Competition Dataset - AfriSenti SemEval</title>
+        <title>Datasets - AfriSenti SemEval</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -45,6 +45,9 @@
                             <li class="navitem">
                                 <a href="../organizer/" class="nav-link">Organizers</a>
                             </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Datasets</a>
+                            </li>
                             <li class="navitem">
                                 <a href="../Terms/" class="nav-link">Terms</a>
                             </li>
@@ -59,6 +62,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../organizer/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Terms/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -77,24 +90,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#competition-dataset" class="nav-link">Competition Dataset</a>
+            <li class="nav-item" data-level="1"><a href="#dataset-statistics" class="nav-link">Dataset Statistics</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#dataset-statistics" class="nav-link">Dataset Statistics</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#trail-data" class="nav-link">Trail Data</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#training-data" class="nav-link">Training Data</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#hyrdating-tweets" class="nav-link">Hyrdating Tweets</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -102,52 +99,107 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="competition-dataset">Competition Dataset</h1>
-<p>The dataset for the competition is available at the following Github link: <a href="https://github.com/afrisenti-semeval/afrisent-semeval-dataset">AfriSenti-SemEval Dataset</a></p>
-<p>The dataset consists of tweets labeled with three sentiment classes (positive, negative, neutral) in 12 African languages. Each tweet is annotated by three annotators. We use a form of majority vote to determine the sentiment of the tweet. See more in our paper: Below is a sample dataset in all the languages:</p>
-<h2 id="dataset-statistics">Dataset Statistics</h2>
+<h1 id="dataset-statistics">Dataset Statistics</h1>
 <p>Below is a statistic of the dataset in all the 12 languages.</p>
+<style>
+table th:first-of-type {
+    width: 0.50%;
+}
+table th:nth-of-type(2) {
+    width: 0.50%;
+}
+table th:nth-of-type(3) {
+    width: 0.50%;
+}
+table th:nth-of-type(4) {
+    width: 0.50%;
+}
+</style>
+
 <table>
 <thead>
 <tr>
 <th>Languages</th>
 <th>Train</th>
-<th>Validation</th>
+<th>Val</th>
 <th>Test</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>sXYZ</td>
-<td>sBlu</td>
-<td></td>
-<td>z</td>
+<td>Hausa</td>
+<td>17,716</td>
+<td>2,677</td>
+<td>-</td>
 </tr>
 <tr>
-<td>Jaobe X</td>
-<td>Blue</td>
-<td>5.2</td>
-<td></td>
+<td>Yoruba</td>
+<td>13,318</td>
+<td>2,090</td>
+<td>-</td>
 </tr>
 <tr>
-<td>sXYZ</td>
-<td></td>
-<td></td>
-<td></td>
+<td>Igbo</td>
+<td>12,741</td>
+<td>1,841</td>
+<td>-</td>
 </tr>
 <tr>
-<td>Jaobe X</td>
-<td></td>
-<td></td>
-<td></td>
+<td>Nigerian-Pidgin</td>
+<td>6,719</td>
+<td>679</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Amharic</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Swahili</td>
+<td>2,263</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Kinyarwanda</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Mozabique Portuguess</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Twi</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Sestswana</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Isuzulu</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Tigrinya</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
 </tr>
 </tbody>
 </table>
-<h2 id="trail-data">Trail Data</h2>
-<p>The trial data is available here. </p>
-<h2 id="training-data">Training Data</h2>
-<p>The training data is available here. </p>
-<h2 id="hyrdating-tweets">Hyrdating Tweets</h2>
 <style>
 table {
     border-collapse: collapse;
