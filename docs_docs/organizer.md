@@ -5,7 +5,7 @@ Below is a list of organizers for AfriSenti-Shared Task 2022
 | Organizers | Affliation |
 |---|---|
 | Shamsuddeen Hassan Muhammad | Bayero University, Kano, Masakhane |
-|Seid Muhie Yimam Universität Hamburg|  Universität Hamburg, Hamburg; Masakhane|
+|Seid Muhie Yimam |  Universität Hamburg, Hamburg; Masakhane|
 | Idris Abdulmumin  | Ahmadu Bello UniversityZaria, Masakhane|
 | Ibrahim Sa’id Ahmad |  Bayero University, Kano |
 | Abinew Ali Ayele  | Bahir Dar University, Bahir Dar |
