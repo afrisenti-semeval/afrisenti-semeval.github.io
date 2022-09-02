@@ -35,18 +35,18 @@ The **AfriSenti-SemEval Shared Task 12** is based on a collection of Twitter dat
 > Given training data in a target language, determine the polarity of a tweet in the target language (positive, negative, or neutral). If a tweet 
 For messages conveying both a positive and negative sentiment, whichever is the stronger sentiment should be chosen. This sub-task has 12 tracks:
 
-  - Track- 1: Hausa Language
-  - Track- 2: Yoruba_language
-  - Track- 3: Igbo language
-  - Track- 4: Nigerian_Pidgin
-  - Track- 5: Amharic
-  - Track- 6: Algerian Arabic
-  - Track- 7: Kinyarwanda
-  - Track- 8: Twi
-  - Track- 9: Mozambican Portuguese
-  - Track- 10:Swahili 
-  - Track- 11: Setswana
-  - Track- 12: isiZulu
+  - Track 1: Hausa 
+  - Track 2: Yoruba
+  - Track 3: Igbo 
+  - Track 4: Nigerian_Pidgin
+  - Track 5: Amharic
+  - Track 6: Algerian Arabic
+  - Track 7: Kinyarwanda
+  - Track 8: Twi
+  - Track 9: Mozambican Portuguese
+  - Track 10:Swahili 
+  - Track 11: Setswana
+  - Track 12: isiZulu
 
 > **Task B: Multilingual Sentiment Classification**
 

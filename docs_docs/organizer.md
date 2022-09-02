@@ -16,6 +16,10 @@ Below is a list of organizers for AfriSenti-Shared Task 2022
 | Nedjma Ousidhoum  | The University of Cambridge |
 | Meriem Beloucif | Uppsala University |
 | Tadesse Destaw Belay | Wollo University, Dessie |
+| Tadesse Destaw Belay | Wollo University, Dessie |
+| Tadesse Destaw Belay | Wollo University, Dessie |
+| Tadesse Destaw Belay | Wollo University, Dessie |
+    
 
 
 

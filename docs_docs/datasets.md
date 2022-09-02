@@ -1,7 +1,5 @@
 # Dataset Statistics
 
-Below is a statistic of the dataset in all the 12 languages.
-
 <style>
 table th:first-of-type {
     width: 0.50%;
@@ -18,14 +16,15 @@ table th:nth-of-type(4) {
 </style>
 
 
-|Languages|Train|Val|Test|
+|Languages &nbsp;|Train &nbsp;|Val &nbsp;|Test &nbsp;|
 |------|-----|-----|-----|
-| Hausa|17,716|2,677| -|
-| Yoruba|13,318|2,090|-|
-| Igbo  |12,741|1,841|-|
-| Nigerian-Pidgin|6,719|679|-|
+| Hausa|-|-| -|
+| Yoruba|-|-|-|
+| Igbo  |-||-|
+| Nigerian-Pidgin|-|-|
 | Amharic|-|-|-|
-| Swahili|2,263|-|-|
+| Algerian Arabic|-|-|-|
+| Swahili||-|-|
 | Kinyarwanda|-|-|-|
 | Mozabique Portuguess|-|-|-|
 | Twi|-|-|-|
