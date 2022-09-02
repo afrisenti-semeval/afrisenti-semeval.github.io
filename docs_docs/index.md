@@ -69,9 +69,8 @@ All deadlines are 23:59 UTC-12 ("anywhere on Earth").
 ## **Communication**
 
 - Join [Task Mailing List](https://groups.google.com/g/afrisenti-semeval)
-- Join [Masakhane's](https://www.masakhane.io) [Slack](https://join.slack.com/t/masakhane-nlp/shared_invite/zt-1cg72ed5u-01xYqGd1MdXcbSEvZ435YA) and join #Afrisenti channel to communicate with other participants.
-- If you are attending Deep Indaba 2022, we will present a poster on AfriSenti SemEval. Come and chat with us to know more about the task.
-
+- Join [Task Slack Channel](https://join.slack.com/t/afrisenti-semeval/shared_invite/zt-1fds98x1u-L3c~bpBI91IWRD80_Fy23Q) to communicate with other participants.
+- Contact Organizers: [afrisenti-semeval-organizers@googlegroups.com](mailto:afrisenti-semeval-organizers@googlegroups.com)
 ## **Previous Shared Tasks**
 
 1. Shared tasks in English:[SemEval-2017](https://alt.qcri.org/semeval2017/task4/),[SemEval-2016](https://alt.qcri.org/semeval2016/task4/),[SemEval-2015](https://alt.qcri.org/semeval2015/task10/),[SemEval-2014](https://alt.qcri.org/semeval2014/task9/),[SemEval-2013](https://aclanthology.org/S13-2052/)

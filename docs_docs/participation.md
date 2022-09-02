@@ -28,7 +28,7 @@ We will be accepting and evaluating your submissions on [CodaLab](https://codala
 
 ## **Evaluation**
 
-We will use the AvgRec, Accuracy, and macro-average F1 measures for model evaluation. AvgRec, which provides results in a range of [0,1] favoured over standard accuracy because it is more robust to class imbalance (usually more natural classes than positive or negative as it can be seen in our Amharic dataset class distribution). Although accuracy reports the overall performance of the system, the F1 metric is calculated over the POSITIVE and the NEGATIVE classes exclusively.
+Since our datasets are imbalance, we will use macro-F1 (macro-averaged F1) score  for model evaluation. 
 
 
 ## **Results**
