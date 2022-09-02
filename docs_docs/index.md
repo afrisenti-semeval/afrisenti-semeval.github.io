@@ -3,6 +3,9 @@
 #   **AfriSenti-SemEval Shared Task 12** 
 AfriSenti-SemEval: Sentiment Analysis for Low-resource African Languages using Twitter Dataset
 
+> Part of the [17th International Workshop on Semantic Evaluation](https://semeval.github.io/SemEval2023/tasks.html)
+
+
 > Contact organizers at: [afrisenti-semeval-organizers@googlegroups.com](mailto:afrisenti-semeval-organizers@googlegroups.com)
 
 > Join [Task Slack Channel](https://join.slack.com/t/afrisenti-semeval/shared_invite/zt-1fds98x1u-L3c~bpBI91IWRD80_Fy23Q) to communicate with the organizers.
