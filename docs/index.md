@@ -5,6 +5,7 @@ AfriSenti-SemEval: Sentiment Analysis for Low-resource African Languages using T
 
 > Contact organizers at: [afrisenti-semeval-organizers@googlegroups.com](mailto:afrisenti-semeval-organizers@googlegroups.com)
 
+> Join [Task Slack Channel](https://join.slack.com/t/afrisenti-semeval/shared_invite/zt-1fds98x1u-L3c~bpBI91IWRD80_Fy23Q) to communicate with the organizers.
 </center>
 
 ---
@@ -69,7 +70,7 @@ All deadlines are 23:59 UTC-12 ("anywhere on Earth").
 ## **Communication**
 
 - Join [Task Mailing List](https://groups.google.com/g/afrisenti-semeval)
-- Join [Task Slack Channel](https://join.slack.com/t/afrisenti-semeval/shared_invite/zt-1fds98x1u-L3c~bpBI91IWRD80_Fy23Q) to communicate with other participants.
+- Join [Task Slack Channel](https://join.slack.com/t/afrisenti-semeval/shared_invite/zt-1fds98x1u-L3c~bpBI91IWRD80_Fy23Q) to communicate with the organizers.
 - Contact Organizers: [afrisenti-semeval-organizers@googlegroups.com](mailto:afrisenti-semeval-organizers@googlegroups.com)
 ## **Previous Shared Tasks**
 
