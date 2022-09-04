@@ -5,6 +5,8 @@ AfriSenti-SemEval: Sentiment Analysis for Low-resource African Languages using T
 
 > Part of the [17th International Workshop on Semantic Evaluation](https://semeval.github.io/SemEval2023/tasks.html)
 
+> [Frequently Asked Questions about SemEval Shared Task](https://semeval.github.io/faq.html)
+
 
 > Contact organizers at: [afrisenti-semeval-organizers@googlegroups.com](mailto:afrisenti-semeval-organizers@googlegroups.com)
 
