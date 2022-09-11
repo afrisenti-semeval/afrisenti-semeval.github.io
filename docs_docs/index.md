@@ -27,13 +27,16 @@ There has been a growing interest in sentiment analysis which applies to many do
 and psychology (<cite>Mohammad, Saif M, 2022</cite>). Previous shared tasks on sentiment analysis include <cite>Mohammad, Saif M et al., (2018), Nakov et al., (2016), Pontiki et al., Ghosh et al., (2015), (2014), and so on </cite> . However, none of these tasks included African languages. Though <cite> Mohammad, Saif, et al. (2018)</cite> included standard Arabic, we focus on Arabic dialects from African countries: <cite>Algerian Arabic</cite> and <cite>Tunisian Arabizi</cite>. We believe SemEval is the right venue, due to its popularity and widespread acceptance, to carry out shared tasks for African languages to strengthen their further development. 
 
 
+In this shared task, we have covered 13 African languages, 4 languages from Nigeria (Hausa, Yoruba, Igbo, Nigerian Pigdin), 3 from Ethiopia (Amharic and Tigrinya), Swahili from Kenya and Tanzania, Algerian Arabic dialect from Algeria, Kinyarwanda from Ruwanda, Twi from Ghana, Mozambican Portuguese from Mozambique, 3 languages from South Africa (isiZulu, Setswana and Tsonga(https://en.wikipedia.org/wiki/Tsonga_language) and Moroccan Arabic/Darija (https://en.wikipedia.org/wiki/Moroccan_Arabic).
 
-In this shared task, we have covered 13 African languages, 4 languages from Nigeria ([Hausa](https://en.wikipedia.org/wiki/Hausa_language), [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language), [Igbo](https://en.wikipedia.org/wiki/Igbo_language), [Nigerian Pigdin](https://en.wikipedia.org/wiki/Nigerian_Pidgin)), 3 from Ethiopia ([Amharic](https://en.wikipedia.org/wiki/Amharic, and Oromo) and [Tigrinya](https://en.wikipedia.org/wiki/Tigrinya_language)), [Swahili](https://en.wikipedia.org/wiki/Swahili_language) from Kenya and Tanzania,  [Algerian Arabic](https://en.wikipedia.org/wiki/Algerian_Arabic) dialect from Algeria, [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda) from Ruwanda, [Twi](https://en.wikipedia.org/wiki/Twi) from Ghana, Mozambican Portuguese from [Mozambique](https://www.google.com/search?client=safari&rls=en&q=Mozabique+portuguess&ie=UTF-8&oe=UTF-8) and 3 languages from South Africa ([isiZulu](https://en.wikipedia.org/wiki/Zulu_language), [Setswana](https://en.wikipedia.org/wiki/Tswana_language) and Tsonga(https://en.wikipedia.org/wiki/Tsonga_language).
+
+
+In this shared task, we have covered 13 African languages, 4 languages from Nigeria ([Hausa](https://en.wikipedia.org/wiki/Hausa_language), [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language), [Igbo](https://en.wikipedia.org/wiki/Igbo_language), [Nigerian Pigdin](https://en.wikipedia.org/wiki/Nigerian_Pidgin)), 3 from Ethiopia ([Amharic](https://en.wikipedia.org/wiki/Amharic, and Oromo) and [Tigrinya](https://en.wikipedia.org/wiki/Tigrinya_language)), [Swahili](https://en.wikipedia.org/wiki/Swahili_language) from Kenya and Tanzania,  [Algerian Arabic](https://en.wikipedia.org/wiki/Algerian_Arabic) dialect from Algeria, [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda) from Ruwanda, [Twi](https://en.wikipedia.org/wiki/Twi) from Ghana, Mozambican Portuguese from [Mozambique](https://www.google.com/search?client=safari&rls=en&q=Mozabique+portuguess&ie=UTF-8&oe=UTF-8) and 3 languages from South Africa ([isiZulu](https://en.wikipedia.org/wiki/Zulu_language), [Setswana](https://en.wikipedia.org/wiki/Tswana_language), Tsonga(https://en.wikipedia.org/wiki/Tsonga_language) and Moroccan Arabic/Darija (https://en.wikipedia.org/wiki/Moroccan_Arabic)
 
 ## **Task Overview**
 
 
-The **AfriSenti-SemEval Shared Task 12** is based on a collection of Twitter datasets in 13 African languages for sentiment classification. It consists of three sub-tasks. Participants can select one or more tasks depending on their preference. 
+The **AfriSenti-SemEval Shared Task 12** is based on a collection of Twitter datasets in 14 African languages for sentiment classification. It consists of three sub-tasks. Participants can select one or more tasks depending on their preference.
 
 > **Task A: Monolingual Sentiment Classification**
 
@@ -52,6 +55,7 @@ For messages conveying both a positive and negative sentiment, whichever is the 
   - Track 10: Swahili 
   - Track 11: Setswana
   - Track 12: isiZulu
+  - Track 13: Moroccan Arabic/Darija,
 
 > **Task B: Multilingual Sentiment Classification**
 
@@ -71,7 +75,7 @@ Given unlabeled tweets in two African languages (Tigrinya and Xithonga), leverag
 
 ## **Dataset Examples**
 
-The dataset involves tweets labeled with three sentiment classes (positive, negative, neutral) in 12 African languages. Each tweet is annotated by three annotators following the annotation guidelines in (<cite>Mohammad, Saif M, 2016</cite>). We use a form of majority vote to determine the sentiment of the tweet. See more in our paper (<cite>Muhammad et al., 2022</cite>, <cite>Yimam et al., 2020</cite>). Below is a sample dataset for the 4 Nigerian languges (Muhammad et al., 2022):
+The dataset involves tweets labeled with three sentiment classes (positive, negative, neutral) in 14 African languages. Each tweet is annotated by three annotators following the annotation guidelines in (<cite>Mohammad, Saif M, 2016</cite>). We use a form of majority vote to determine the sentiment of the tweet. See more in our paper (<cite>Muhammad et al., 2022</cite>, <cite>Yimam et al., 2020</cite>). Below is a sample dataset for the 4 Nigerian languges (Muhammad et al., 2022):
 
 ![Dataset Example](dataset.png)
 
