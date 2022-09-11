@@ -49,7 +49,7 @@ For messages conveying both a positive and negative sentiment, whichever is the 
   - Track 7: Kinyarwanda
   - Track 8: Twi
   - Track 9: Mozambican Portuguese
-  - Track 10:Swahili 
+  - Track 10: Swahili 
   - Track 11: Setswana
   - Track 12: isiZulu
 
@@ -66,6 +66,8 @@ Given unlabeled tweets in two African languages (Tigrinya and Xithonga), leverag
 
  - Track 14 : Zero-Shot on Tigrinya
  - Track 15 : Zero-Shot on Tsonga
+ - Track 16 : Zero-Shot on Oromo
+
 
 ## **Dataset Examples**
 
