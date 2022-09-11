@@ -77,6 +77,12 @@ The dataset involves tweets labeled with three sentiment classes (positive, nega
 
 The datasets are available on [Github](https://github.com/afrisenti-semeval/afrisent-semeval-dataset)
 
+## Why Participate ?
+
+- Promote NLP research involving African languages,
+- Opportunity to write and submit a system-description paper to SemEval2023 workshop to be co-located with ACL 2023   
+- Stand a chance to win award.
+- Opportunity to network with renowned experts in the NLP and AI area.
 
 ## **Important Dates**
 
