@@ -2,15 +2,15 @@
 
    ![Afrisenti](AfriSenti2023_winner.png "AfriSenti Award")
 
-AfriSenti-SemEval competition has a prize and will be awarded to best performing team in each of the three sub-tasks(). We also have three leagues for the award:
+AfriSenti-SemEval competition has a prize and will be awarded to best performing team in each of the three sub-tasks(A, B and C). We also have three leagues for the award:
 
-- **African League**: To encourage African participation, this league is for team with atleast one African.
+- **African League**: To encourage African participation, this league is for team with at least one African.
 
 - **Women League**: This league is dedicated to female only.
 
 - **Worldwide League**: Be a participant from any country.
 
-The prize ($500) will be given to the best system from each league. For example, for sub-task A, three awards will be given from the three leagues. So, 9 prizes will be awarded to the total number of winners since we have 3 sub-tasks.
+The prize ($500) will be awarded to the best system from each league. For example, for sub-task A, three awards will be given from the three leagues. So, 9 prizes will be awarded to the total number of winners since we have 3 sub-tasks.
 
 ## Competition Terms and Conditions
 
