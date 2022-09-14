@@ -12,7 +12,7 @@ AfriSenti-SemEval: Sentiment Analysis for Low-resource African Languages using T
 
 > Join [Task Slack Channel](https://join.slack.com/t/afrisenti-semeval/shared_invite/zt-1fds98x1u-L3c~bpBI91IWRD80_Fy23Q) to communicate with the organizers.
 
- <font size=5>   <span style="color: red;">Training Data will be released on 11 September, 2022</span> </font> 
+ <font size=5>   <span style="color: blue;">  Dataset is released :[ visit CodaLab competition website](https://codalab.lisn.upsaclay.fr/competitions/7320) </span> </font> 
 </center>
 
 ---
