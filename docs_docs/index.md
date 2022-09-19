@@ -57,6 +57,8 @@ For messages conveying both a positive and negative sentiment, whichever is the 
   - Track 12: isiZulu
   - Track 13: Moroccan Arabic/Darija,
 
+Note: Tweets in each language are code-mix. Read our [NaijaSenti](https://arxiv.org/pdf/2201.08277.pdf) paper for more information.
+
 > **Task B: Multilingual Sentiment Classification**
 
 Given a combined training data from 10 African languages, determine the polarity of a tweet in the target language (positive, negative, or neutral). This sub-task has only one track:
@@ -88,6 +90,10 @@ The datasets are available on [Github](https://github.com/afrisenti-semeval/afri
 - Stand a chance to win award.
 - Opportunity to network with renowned experts in the NLP and AI area.
 
+
+## Starter-Kit 
+
+We will soon release a starter kit for all three sub-task. The starter-kit will be a collab notebook that can be used to create a baseline system. Stay tuned.
 ## **Important Dates**
 
 
