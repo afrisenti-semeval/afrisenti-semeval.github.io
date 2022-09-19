@@ -6,7 +6,7 @@ AfriSenti-SemEval competition has a prize and will be awarded to best performing
 
 - **African League**: To encourage African participation, this league is for team with at least one African.
 
-- **Women League**: This league is dedicated to female only.
+- **Students League**: This league is dedicated Masters and Undergraduate students only..
 
 - **Worldwide League**: Be a participant from any country.
 
