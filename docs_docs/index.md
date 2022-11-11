@@ -65,7 +65,7 @@ Note: Tweets in each language are code-mix. Read our [NaijaSenti](https://arxiv.
 
 Given combined training data from Task-A (Track 1 to 12), determine the polarity of a tweet in the target language (positive, negative, or neutral). This sub-task has only one track with 12 languages (Hausa, Yoruba, Igbo, Nigerian_Pidgin, Amharic, Algerian Arabic, Moroccan Arabic/Darija, Swahili, Kinyarwanda, Twi, Mozambican Portuguese, and Xitsonga(Mozambique Dialect)):
 
-Track 15: 12 languages in Task A
+- Track 15: 12 languages in Task A
 
 Given a combined training data from 10 African languages, determine the polarity of a tweet in the target language (positive, negative, or neutral). This sub-task has only one track:
 
@@ -82,9 +82,9 @@ Note: You are free to select one or more tracks in this sub-task.
 
 The dataset involves tweets labeled with three sentiment classes (positive, negative, neutral) in 14 African languages. Each tweet is annotated by three annotators following the annotation guidelines in (<cite>Mohammad, Saif M, 2016</cite>). We use a form of majority vote to determine the sentiment of the tweet. See more in our paper (<cite>Muhammad et al., 2022</cite>, <cite>Yimam et al., 2020</cite>). Below is a sample dataset for the 4 Nigerian languges (Muhammad et al., 2022):
 
-![Dataset Example](dataset.png)
+![Dataset Example](dataset_updated.png)
 
-The datasets are available on [Github](https://github.com/afrisenti-semeval/afrisent-semeval-dataset)
+The datasets are available via the [CodaLab competition website](https://codalab.lisn.upsaclay.fr/competitions/7320)
 
 ## Why Participate ?
 
@@ -100,8 +100,8 @@ We provide a [Starter Kit](https://github.com/afrisenti-semeval/afrisent-semeval
 
 | Descriptions |  Deadlines |
 | --- | --- |
-| Sample Data Ready  | ~~15 July 2022~~ |
-| Training Data Ready | ~~11 September 2022~~ |
+| Sample Data Ready  | 15 July 2022|
+| Training Data Ready | 11 September 2022|
 | Evaluation Start  | 10 January 2023|
 | Evaluation End  | 31 January 2023|
 | System Description Paper Due |  February 2023  |
