@@ -16,7 +16,6 @@ AfriSenti-SemEval: Sentiment Analysis for Low-resource African Languages using T
 </center>
 
 ---
-
 ## **Motivation**
 
 Due to the widespread use of the Internet and social media platforms, most languages are becoming digitally available. This allows for various artificial
@@ -31,49 +30,53 @@ In this shared task, we have covered 13 African languages, 4 languages from Nige
 
 
 
-In this shared task, we have covered 13 African languages, 4 languages from Nigeria ([Hausa](https://en.wikipedia.org/wiki/Hausa_language), [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language), [Igbo](https://en.wikipedia.org/wiki/Igbo_language), [Nigerian Pigdin](https://en.wikipedia.org/wiki/Nigerian_Pidgin)), 3 from Ethiopia ([Amharic](https://en.wikipedia.org/wiki/Amharic, and Oromo) and [Tigrinya](https://en.wikipedia.org/wiki/Tigrinya_language)), [Swahili](https://en.wikipedia.org/wiki/Swahili_language) from Kenya and Tanzania,  [Algerian Arabic](https://en.wikipedia.org/wiki/Algerian_Arabic) dialect from Algeria, [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda) from Ruwanda, [Twi](https://en.wikipedia.org/wiki/Twi) from Ghana, Mozambican Portuguese from [Mozambique](https://www.google.com/search?client=safari&rls=en&q=Mozabique+portuguess&ie=UTF-8&oe=UTF-8) and 3 languages from South Africa ([isiZulu](https://en.wikipedia.org/wiki/Zulu_language), [Setswana](https://en.wikipedia.org/wiki/Tswana_language), Tsonga(https://en.wikipedia.org/wiki/Tsonga_language) and Moroccan Arabic/Darija (https://en.wikipedia.org/wiki/Moroccan_Arabic)
+In this shared task, we have covered 16 African languages, 4 languages from Nigeria ([Hausa](https://en.wikipedia.org/wiki/Hausa_language), [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language), [Igbo](https://en.wikipedia.org/wiki/Igbo_language), [Nigerian Pigdin](https://en.wikipedia.org/wiki/Nigerian_Pidgin)), 3 from Ethiopia ([Amharic](https://en.wikipedia.org/wiki/Amharic, and Oromo) and [Tigrinya](https://en.wikipedia.org/wiki/Tigrinya_language)), [Swahili](https://en.wikipedia.org/wiki/Swahili_language) from Kenya and Tanzania,  [Algerian Arabic](https://en.wikipedia.org/wiki/Algerian_Arabic) dialect from Algeria, [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda) from Ruwanda, [Twi](https://en.wikipedia.org/wiki/Twi) from Ghana, Mozambican Portuguese from [Mozambique](https://www.google.com/search?client=safari&rls=en&q=Mozabique+portuguess&ie=UTF-8&oe=UTF-8) and 3 languages from South Africa ([isiZulu](https://en.wikipedia.org/wiki/Zulu_language), [Setswana](https://en.wikipedia.org/wiki/Tswana_language), Tsonga(https://en.wikipedia.org/wiki/Tsonga_language) and Moroccan Arabic/Darija (https://en.wikipedia.org/wiki/Moroccan_Arabic)
 
 ## **Task Overview**
-
 
 The **AfriSenti-SemEval Shared Task 12** is based on a collection of Twitter datasets in 14 African languages for sentiment classification. It consists of three sub-tasks. Participants can select one or more tasks depending on their preference.
 
 > **Task A: Monolingual Sentiment Classification**
 
-> Given training data in a target language, determine the polarity of a tweet in the target language (positive, negative, or neutral). If a tweet 
+Given training data in a target language, determine the polarity of a tweet in the target language (positive, negative, or neutral). If a tweet
 For messages conveying both a positive and negative sentiment, whichever is the stronger sentiment should be chosen. This sub-task has 12 tracks:
 
-  - Track 1: Hausa 
-  - Track 2: Yoruba
-  - Track 3: Igbo 
-  - Track 4: Nigerian_Pidgin
-  - Track 5: Amharic
-  - Track 6: Algerian Arabic
-  - Track 7: Kinyarwanda
-  - Track 8: Twi
-  - Track 9: Mozambican Portuguese
-  - Track 10: Swahili 
-  - Track 11: Setswana
-  - Track 12: isiZulu
-  - Track 13: Moroccan Arabic/Darija,
+Note: You are free to select one or more tracks in this sub-task.
+
+- Track 1: Hausa
+- Track 2: Yoruba
+- Track 3: Igbo
+- Track 4: Nigerian_Pidgin
+- Track 5: Amharic
+- Track 6: Algerian Arabic
+- Track 7: Moroccan Arabic/Darija,
+- Track 8: Swahili
+- Track 9: Kinyarwanda
+- Track 10: Twi
+- Track 11: Mozambican Portuguese
+- Track 12: Xitsonga (Mozambique Dialect)
+- Track 13: Setswana (data to be released soon)
+- Track 14: isiZulu (data to be released soon)
+- Track 15: Xitsonga (South-African Dialect, to be released soon)
 
 Note: Tweets in each language are code-mix. Read our [NaijaSenti](https://arxiv.org/pdf/2201.08277.pdf) paper for more information.
 
 > **Task B: Multilingual Sentiment Classification**
 
+Given combined training data from Task-A (Track 1 to 12), determine the polarity of a tweet in the target language (positive, negative, or neutral). This sub-task has only one track with 12 languages (Hausa, Yoruba, Igbo, Nigerian_Pidgin, Amharic, Algerian Arabic, Moroccan Arabic/Darija, Swahili, Kinyarwanda, Twi, Mozambican Portuguese, and Xitsonga(Mozambique Dialect)):
+
+Track 15: 12 languages in Task A
+
 Given a combined training data from 10 African languages, determine the polarity of a tweet in the target language (positive, negative, or neutral). This sub-task has only one track:
-
- - Track 13 : All languages in Task A
-
 
 > **Task C: Zero-Shot Sentiment Classification**
 
-Given unlabeled tweets in two African languages (Tigrinya and Xithonga), leverage any or all of the available training datasets in Subtasks 1 and 2 to determine the sentiment of a tweet in the two target languages is positive, negative, or neutral. This task has two tracks
+Given unlabelled tweets in two African languages (Tigrinya and Oromo), leverage any or all of the available training datasets (in Task:A ) to determine the sentiment of a tweet in the two target languages. This task has three (2) tracks.
 
- - Track 14 : Zero-Shot on Tigrinya
- - Track 15 : Zero-Shot on Tsonga
- - Track 16 : Zero-Shot on Oromo
+Note: You are free to select one or more tracks in this sub-task.
 
+- Track 16: Zero-Shot on Tigrinya
+- Track 17: Zero-Shot on Oromo
 
 ## **Dataset Examples**
 
@@ -90,26 +93,23 @@ The datasets are available on [Github](https://github.com/afrisenti-semeval/afri
 - Stand a chance to win award.
 - Opportunity to network with renowned experts in the NLP and AI area.
 
-
 ## Starter-Kit 
 
-We will soon release a starter kit for all three sub-task. The starter-kit will be a collab notebook that can be used to create a baseline system. Stay tuned.
+We provide a [Starter Kit](https://github.com/afrisenti-semeval/afrisent-semeval-2023) on our GitHub Repo. The Starter Kit can be used to create a baseline system. 
 ## **Important Dates**
-
 
 | Descriptions |  Deadlines |
 | --- | --- |
 | Sample Data Ready  | ~~15 July 2022~~ |
-| Training Data Ready | 11 September 2022 |
+| Training Data Ready | ~~11 September 2022~~ |
 | Evaluation Start  | 10 January 2023|
 | Evaluation End  | 31 January 2023|
 | System Description Paper Due |  February 2023  |
 | Notification to authors   | March 2023   |
 | Camera ready due   | April 2023  |
-| SemEval workshop Summer 2023  |(co-located with a major NLP conference) | 
+| SemEval workshop Summer 2023  |(co-located with a major NLP conference) |
 
 All deadlines are 23:59 UTC-12 ("anywhere on Earth").
-
 
 ## **Communication**
 
@@ -121,7 +121,6 @@ All deadlines are 23:59 UTC-12 ("anywhere on Earth").
 1. Shared tasks in English:[SemEval-2017](https://alt.qcri.org/semeval2017/task4/),[SemEval-2016](https://alt.qcri.org/semeval2016/task4/),[SemEval-2015](https://alt.qcri.org/semeval2015/task10/),[SemEval-2014](https://alt.qcri.org/semeval2014/task9/),[SemEval-2013](https://aclanthology.org/S13-2052/)
 
 2. Shared tasks in Spanish [TASS-2017](http://www.sepln.org/workshops/tass/2017/),[TASS-2016](http://www.sepln.org/workshops/tass/2016/tass2016.php),[TASS-2015](http://www.sepln.org/workshops/tass/2015/tass2015.php),[TASS-2014](http://www.sepln.org/workshops/tass/2014/tass2014.php),[TASS-2013](https://competitions.codalab.org/competitions/17751#learn_the_details-overview),[TASS-2012](http://www.sepln.org/workshops/tass/2012/tasks.php).
-
 
 ## References
 
@@ -135,9 +134,7 @@ All deadlines are 23:59 UTC-12 ("anywhere on Earth").
    8. Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Said Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jeorge, Pavel Brazdil. 2022, NaijaSenti: A Nigerian Twitter Sentiment Corpus for Multilingual Sentiment Analysis, Marseille, France
    9. Seid Muhie Yimam, Hizkiel Mitiku Alemayehu, Abinew Ayele, Chris Biemann. 2020: Exploring Amharic Sentiment Analysis from Social Media Texts: Building Annotation Tools and Classification Models, Barcelona, Spain (Online)
 
-
 <style>
 body {
 text-align: justify}
 </style>
-
