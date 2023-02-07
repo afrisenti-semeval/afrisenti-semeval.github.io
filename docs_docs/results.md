@@ -4,176 +4,156 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0"  width="100%" height="1066px">
-    </iframe>
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", 
+     scrolling="no">
+     </iframe>
   </body>
 </html>
 
 
-## Hausa
+## Amharic
 
 
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px">
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
     </iframe>
   </body>
 </html>
 
 
-
-## Yoruba
-
-
-<!DOCTYPE html>
-<html>
-  <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px">
-    </iframe>
-  </body>
-</html>
-
-
-## English
+## Amharic
 
 
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px">
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
     </iframe>
   </body>
 </html>
 
 
 
-
-## English
+## Amharic
 
 
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px">
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
     </iframe>
   </body>
 </html>
 
 
 
-
-## English
+## Amharic
 
 
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px">
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
     </iframe>
   </body>
 </html>
 
 
 
-
-
-## English
+## Amharic
 
 
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px">
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
+    </iframe>
+  </body>
+</html>
+
+
+## Amharic
+
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
+    </iframe>
+  </body>
+</html>
+
+
+## Amharic
+
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
+    </iframe>
+  </body>
+</html>
+
+
+## Amharic
+
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
     </iframe>
   </body>
 </html>
 
 
 
-
-
-## English
+## Amharic
 
 
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px">
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
     </iframe>
   </body>
 </html>
 
 
-
-
-
-## English
+## Amharic
 
 
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px">
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
     </iframe>
   </body>
 </html>
 
 
-
-
-
-## English
+## Amharic
 
 
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px">
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
     </iframe>
   </body>
 </html>
 
 
-
-
-
-## English
+## Amharic
 
 
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px">
-    </iframe>
-  </body>
-</html>
-
-
-
-
-
-## English
-
-
-<!DOCTYPE html>
-<html>
-  <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px">
-    </iframe>
-  </body>
-</html>
-
-
-
-
-## English
-
-
-<!DOCTYPE html>
-<html>
-  <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px">
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
     </iframe>
   </body>
 </html>
