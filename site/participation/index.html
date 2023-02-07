@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://example.com/award/">
+        <link rel="canonical" href="https://example.com/participation/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Awards - AfriSenti SemEval</title>
+        <title>Participation - AfriSenti SemEval</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -36,8 +36,8 @@
                             <li class="navitem">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../participation/" class="nav-link">Participation</a>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Participation</a>
                             </li>
                             <li class="navitem">
                                 <a href="../Resources/" class="nav-link">Resources</a>
@@ -47,6 +47,9 @@
                             </li>
                             <li class="navitem">
                                 <a href="../Terms/" class="nav-link">Terms</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../results/" class="nav-link">Results</a>
                             </li>
                             <li class="navitem">
                                 <a href="../prizes/" class="nav-link">Awards</a>
@@ -59,6 +62,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Resources/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -77,7 +90,37 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#awards" class="nav-link">Awards</a>
+            <li class="nav-item" data-level="2"><a href="#how-to-participate" class="nav-link">How to Participate</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#trial-data" class="nav-link">Trial Data</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#training-data" class="nav-link">Training Data</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#submission-website" class="nav-link">Submission Website</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#evaluation" class="nav-link">Evaluation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#results" class="nav-link">Results</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#system-description-papers" class="nav-link">System Description Papers</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -86,16 +129,45 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="awards">Awards</h1>
+<h2 id="how-to-participate"><strong>How to Participate</strong></h2>
 <ul>
-<li>Best Paper (task participants):</li>
-<li>Best Task Award</li>
-<li>TASK A: Monolingual Sentiment Classification</li>
-<li>TASK B: Sentiment Multilingual Sentiment Classification</li>
-<li>TASK C: Zero-Shot Sentiment Classification</li>
-<li>TASK D: Sentiment Classification in Multiple Languages</li>
-<li>TASK E: Sentiment Classification in Multiple Languages with Multiple Annotators</li>
-</ul></div>
+<li>
+<p>The organisers have defined <a href="https://afrisenti-semeval.github.io/#:~:text=Task%20A%3A%20Monolingual%20Sentiment%20Classification%3A%20Given,target%20languages%20is%20positive%2C%20negative%2C%20or%20neutral.">three-subtasks</a> 
+and will release the training data. Participants can work on any or all of the subtasks.</p>
+</li>
+<li>
+<p>The participants can form a team with multiple people, or a single person team is okay.</p>
+</li>
+<li>
+<p>The participants can experiment with the training data to develop models. Usage of any external data or resources is allowed and highly encouraged. This process can run util the evaluation period.</p>
+</li>
+<li>
+<p>Evaluation period: Organisers will release the test set containing instances without the labels. The participants will use their developed models to predict the labels for the instances, and they have to create a submission file that follows exactly the same format as the training data. These prediction files should be submitted to Codalab submission portal (will be announced later). These predictions will be compared against the ground truth labels of the test data and the teams will be ranked on a leaderboard according to the performance score.</p>
+</li>
+<li>
+<p>Each team is encouraged to write a system description paper describing their submission system, including interesting insights, and submit it before the due date. After a review period, each team has to update their submitted paper based on the review feedback and submit the camera-ready version. Accepted papers will be published as part of the proceedings of the SemEval 2023 Workshop (link).</p>
+</li>
+</ul>
+<h2 id="trial-data"><strong>Trial Data</strong></h2>
+<p>We provide a sample dataset for the shared task. Check the <a href="https://github.com/afrisenti-semeval/afrisent-semeval-dataset">Github repository</a>.</p>
+<h2 id="training-data"><strong>Training Data</strong></h2>
+<blockquote>
+<blockquote>
+<p>coming soon </p>
+</blockquote>
+</blockquote>
+<h2 id="submission-website"><strong>Submission Website</strong></h2>
+<p>We will be accepting and evaluating your submissions on <a href="https://codalab.lisn.upsaclay.fr">CodaLab</a>. The submission page will be available soon!</p>
+<h2 id="evaluation"><strong>Evaluation</strong></h2>
+<p>Since our datasets are imbalance, we will use macro-F1 (macro-averaged F1) score  for model evaluation. </p>
+<h2 id="results"><strong>Results</strong></h2>
+<p>The Evaluation phase of Afri-Senti-SemEval 2023 will start on January 10, 2023 and end on 31 January 2023. The Evaluation results and rankings will be notified in this page. We will list the usernames as they appear on CodaLab and the F1 score of your LAST submission. </p>
+<h2 id="system-description-papers"><strong>System Description Papers</strong></h2>
+<p>Participants who made a submission on the CodaLab website during the official evaluation period are given the opportunity to submit a system-description paper. The paper will be part of the SemEval-2023 proceedings. </p>
+<style>
+body {
+text-align: justify}
+</style></div>
             </div>
         </div>
 
