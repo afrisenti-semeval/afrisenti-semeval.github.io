@@ -11,7 +11,7 @@
 </html>
 
 
-## Amharic
+## Algerian Arabic
 
 
 <!DOCTYPE html>
@@ -23,20 +23,7 @@
 </html>
 
 
-## Amharic
-
-
-<!DOCTYPE html>
-<html>
-  <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
-    </iframe>
-  </body>
-</html>
-
-
-
-## Amharic
+## Morrocan Arabic (Darija)
 
 
 <!DOCTYPE html>
@@ -49,56 +36,10 @@
 
 
 
-## Amharic
+
+## Hausa
 
 
-<!DOCTYPE html>
-<html>
-  <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
-    </iframe>
-  </body>
-</html>
-
-
-
-## Amharic
-
-
-<!DOCTYPE html>
-<html>
-  <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
-    </iframe>
-  </body>
-</html>
-
-
-## Amharic
-
-
-<!DOCTYPE html>
-<html>
-  <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
-    </iframe>
-  </body>
-</html>
-
-
-## Amharic
-
-
-<!DOCTYPE html>
-<html>
-  <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
-    </iframe>
-  </body>
-</html>
-
-
-## Amharic
 
 
 <!DOCTYPE html>
@@ -111,7 +52,7 @@
 
 
 
-## Amharic
+## Igbo
 
 
 <!DOCTYPE html>
@@ -123,7 +64,8 @@
 </html>
 
 
-## Amharic
+
+## Kinyarwanda
 
 
 <!DOCTYPE html>
@@ -135,7 +77,7 @@
 </html>
 
 
-## Amharic
+## Mozambican Portuguese
 
 
 <!DOCTYPE html>
@@ -147,7 +89,79 @@
 </html>
 
 
-## Amharic
+## Nigerian Pidgin
+
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
+    </iframe>
+  </body>
+</html>
+
+
+## Oromo
+
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
+    </iframe>
+  </body>
+</html>
+
+
+
+## Swahili
+
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
+    </iframe>
+  </body>
+</html>
+
+
+## Tigrinya
+
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
+    </iframe>
+  </body>
+</html>
+
+
+## Twi
+
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
+    </iframe>
+  </body>
+</html>
+
+
+## Xitsonga
+
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="500px", scrolling="no">
+    </iframe>
+  </body>
+</html>
+
+## Yoruba
 
 
 <!DOCTYPE html>
