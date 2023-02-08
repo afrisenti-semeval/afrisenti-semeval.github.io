@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="hausa.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="hausa.pdf#toolbar=0" width="100%" height="1100px", scrolling="no">
     </iframe>
   </body>
 </html>
