@@ -1,19 +1,22 @@
+## System Description paper
+We are excited to announce that we will be hosting a workshop on writing system description papers. Participants are encouraged to submit a system description paper, regardless of their ranking. 
+
+During the workshop, we will explain how to write a system description paper and participants will be able to ask questions. The session will be held on the 9th of February, 2023. The details will be sent by email to all the participants.
+
+The workshop will be delivered by [Nedjma Ousidhoum](https://nedjmaou.github.io) and [Saif Mohammad](https://saifmohammad.com)
+
+
 ## Track 1: Hausa
-
-
 
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="hausa.pdf#toolbar=0" width="100%" height="1100px", scrolling="no">
+    <iframe src="hausa.pdf#toolbar=0" style="border: none; width: 100%; height: 1055px;">
     </iframe>
   </body>
 </html>
 
 ## Track 2: Yoruba
-
-
-
 
 <!DOCTYPE html>
 <html>
@@ -22,7 +25,6 @@
     </iframe>
   </body>
 </html>
-
 
 ## Track 3: Igbo
 
