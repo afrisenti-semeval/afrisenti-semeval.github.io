@@ -14,7 +14,10 @@ AfriSenti-SemEval: Sentiment Analysis for African Languages
 > 
 >  [Visit CodaLab competition website](https://codalab.lisn.upsaclay.fr/competitions/7320)
 
- <font size=5>   <span style="color: blue;">  AfriSenti Result is coming soon. Check back again</span> </font> 
+<font size=5> <span style="color: blue;"> AfriSenti result is released:[ check results tab](https://afrisenti-semeval.github.io/results/) </span> </font>
+
+
+
 
 
 
