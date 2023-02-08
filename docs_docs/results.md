@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="hausa.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
@@ -18,7 +18,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="Yoruba.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
@@ -32,7 +32,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="Igbo.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
@@ -45,7 +45,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="Nigerian_Pidgin.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
@@ -58,7 +58,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="Amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
@@ -73,7 +73,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="Algerian_Arabic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
@@ -88,7 +88,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="Morrocan_darija.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
@@ -103,7 +103,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="swahili.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
@@ -117,7 +117,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="Kinyarwanda.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
@@ -133,7 +133,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="twi.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
@@ -148,7 +148,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="Mozambican_Portuguess.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
@@ -163,7 +163,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="Xithonga.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
@@ -177,7 +177,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="Multilingual.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
@@ -191,7 +191,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="Zoro_shot_tigrany.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
@@ -204,7 +204,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <iframe src="afrisenti_result_amharic.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
+    <iframe src="Zero_Shot_Oromo.pdf#toolbar=0" width="100%" height="1066px", scrolling="no">
     </iframe>
   </body>
 </html>
