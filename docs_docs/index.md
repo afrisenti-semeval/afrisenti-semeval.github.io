@@ -109,10 +109,10 @@ The datasets are available via the [CodaLab competition website](https://codalab
 | Training Data Ready |<s> 11 September 2022</s>|
 | Evaluation Start  | <s>10 January 2023</s>|
 | Evaluation End  | <s>31 January 2023</s>|
-| System Description Paper Due |  ebruary 2023   |
-| Notification to authors   | March 2023    |
-| Camera ready due   | April 2023 |
-| SemEval workshop 2023  |(co-located with ACL 2023 Canada) |
+| System Description Paper Due |  25th February 2023   |
+| Notification to authors   | 31 March 2023    |
+| Camera ready due   |  21 April 2023 |
+| SemEval workshop 2023  |13-14 July 2023 (co-located with ACL-2023 in Toronto, Canada|
 
 All deadlines are 23:59 UTC-12 ("anywhere on Earth").
 
