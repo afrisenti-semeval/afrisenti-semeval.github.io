@@ -16,7 +16,7 @@ AfriSenti-SemEval: Sentiment Analysis for African Languages
 
 <font size=5> <span style="color: blue;"> AfriSenti result is released:[ check results tab](https://afrisenti-semeval.github.io/results/) </span> </font>
 
-<font size=5> <span style="color: blue;"> Update: AfriSenti test set will be released on Monday, February 14th, 2023.</span> </font>
+<font size=5> <span style="color: blue;"> Update: AfriSenti test set has been released on the task's [GitHub page](https://github.com/afrisenti-semeval/afrisent-semeval-2023).</span> </font>
 
 
 
