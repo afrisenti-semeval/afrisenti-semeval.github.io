@@ -14,14 +14,21 @@ AfriSenti-SemEval: Sentiment Analysis for African Languages
 > 
 >  [Visit CodaLab competition website](https://codalab.lisn.upsaclay.fr/competitions/7320)
 
-<font size=5> <span style="color: blue;"> AfriSenti result is released:[ check results tab](https://afrisenti-semeval.github.io/results/) </span> </font>
-
-<font size=5> <span style="color: blue;"> Update: AfriSenti test set has been released on the task's [GitHub page](https://github.com/afrisenti-semeval/afrisent-semeval-2023).</span> </font>
+<font size=6> <span style="color: Red;"> Updates  </span> </font>
 
 
+<font size=3> <span style="color: blue;"> AfriSenti result is released:[ check results tab](https://afrisenti-semeval.github.io/results/) </span> </font>
+
+<font size=3> <span style="color: blue;"> AfriSenti test set has been released on the task's [GitHub page](https://github.com/afrisenti-semeval/afrisent-semeval-2023).</span> </font>
+
+<font size=3> <span style="color: blue;"> System Description Paper Deadline 28/02/2023</span> </font>
 
 
+<a href="https://semeval.github.io/paper-requirements.html">Paper Submission Requirements</a>
 
+<a href="https://semeval.github.io/system-paper-template.html">Guidelines for Writing Papers</a>
+
+<a href="https://github.com/acl-org/acl-style-files">Paper Style Files</a>
 
 </center>
 
@@ -111,7 +118,7 @@ The datasets are available via the [CodaLab competition website](https://codalab
 | Training Data Ready |<s> 11 September 2022</s>|
 | Evaluation Start  | <s>10 January 2023</s>|
 | Evaluation End  | <s>31 January 2023</s>|
-| System Description Paper Due |  25th February 2023   |
+| System Description Paper Due |  28th February 2023   |
 | Notification to authors   | 31 March 2023    |
 | Camera ready due   |  21 April 2023 |
 | SemEval workshop 2023  |13-14 July 2023 (co-located with ACL-2023 in Toronto, Canada|
