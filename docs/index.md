@@ -30,6 +30,8 @@ AfriSenti-SemEval: Sentiment Analysis for African Languages
 
 <a href="https://github.com/acl-org/acl-style-files">Paper Style Files</a>
 
+<a href="https://softconf.com/acl2023/SemEval2023/
+">Paper Submission Site</a>
 </center>
 
 ---
@@ -108,8 +110,10 @@ The datasets are available via the [CodaLab competition website](https://codalab
 <li><a href="https://semeval.github.io/paper-requirements.html">Paper Submission Requirements</a></li>
 <li><a href="https://semeval.github.io/system-paper-template.html">Guidelines for Writing Papers</a></li>
 <li><a href="https://github.com/acl-org/acl-style-files">Paper Style Files</a></li>
-<li>Paper Submission Site (TBD)</li>
+<li><a href="https://softconf.com/acl2023/SemEval2023/
+">Paper Submission Site</a></li>
 </ul>
+
 
 
 ## **Important Dates**
