@@ -26,6 +26,7 @@ The prizes in this competition are to be distributed by the organizers of AfriSe
 
 ## Eligibility
 
+- Only teams that submit system description paper are eligible.
 - Unless otherwise stated, the competitions are open to all except members of the organizing team.
 - Only one entry per team is will be considered.
 - In entering, you confirm that you are eligible to do so and eligible to claim any prize you may win. The Organizers may require you to provide proof that you are eligible to enter the competition.
