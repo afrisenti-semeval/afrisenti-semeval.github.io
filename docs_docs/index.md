@@ -1,38 +1,54 @@
+
 <center>
 
 #   **AfriSenti-SemEval Shared Task 12** 
 AfriSenti-SemEval: Sentiment Analysis for African Languages
 
 > Part of the [17th International Workshop on Semantic Evaluation](https://semeval.github.io/SemEval2023/tasks.html)
+</center>
 
-> [Frequently Asked Questions about SemEval Shared Task](https://semeval.github.io/faq.html)
+<font size=3> <span style="color: blue;"> Please use the following BibTex entry to cite us if you use our dataset: </span> </font>
 
 
+<p><strong><cite><a href="https://arxiv.org/pdf/2304.06845.pdf">SemEval-2023 Task 12: Sentiment Analysis for African Languages
+(AfriSenti-SemEval)</a>.</cite></strong> </p>
+<pre id="citeBibtexContent" class="bg-light border p-2">@inproceedings
+{muhammadSemEval2023,
+title = {{SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval)}},
+author = {Shamsuddeen Hassan Muhammad and Idris Abdulmumin and Seid Muhie Yimam and David Ifeoluwa Adelani and Ibrahim Sa'id Ahmad and Nedjma Ousidhoum and Abinew Ali Ayele and Saif M. Mohammad and Meriem Beloucif and Sebastian Ruder},
+booktitle = {Proceedings of the 17th {{International Workshop}} on {{Semantic Evaluation}} ({{SemEval-2023}})},
+publisher = {{Association for Computational Linguistics}},
+year = {2023},
+url = {https://arxiv.org/pdf/2304.06845.pdf}
+}</pre>
+
+<p><strong><cite><a href="https://arxiv.org/pdf/2302.08956.pdf">AfriSenti: A Twitter Sentiment Analysis Benchmark for African
+Languages</a>.</cite></strong> </p>
+<pre id="citeBibtexContent" class="bg-light border p-2">@misc
+{muhammad2023afrisenti,
+title={{AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages}},
+author={Shamsuddeen Hassan Muhammad and Idris Abdulmumin and Abinew Ali Ayele and Nedjma Ousidhoum and David Ifeoluwa Adelani and Seid Muhie Yimam and Ibrahim Sa'id Ahmad and Meriem Beloucif and Saif Mohammad and Sebastian Ruder and Oumaima Hourrane and Pavel Brazdil and Felermino Dário Mário António Ali and Davis Davis and Salomey Osei and Bello Shehu Bello and Falalu Ibrahim and Tajuddeen Gwadabe and Samuel Rutunda and Tadesse Belay and Wendimu Baye Messelle and Hailu Beshada Balcha and Sisay Adugna Chala and Hagos Tesfahun Gebremichael and Bernard Opoku and Steven Arthur},
+year={2023},
+doi={10.48550/arXiv.2302.08956},
+url={https://arxiv.org/pdf/2302.08956.pdf}
+}</pre>
+
+
+
+
+<center>
 > Contact organizers at: [afrisenti-semeval-organizers@googlegroups.com](mailto:afrisenti-semeval-organizers@googlegroups.com)
 
-> Join [Task Slack Channel](https://join.slack.com/t/afrisenti-semeval/shared_invite/zt-1fds98x1u-L3c~bpBI91IWRD80_Fy23Q) to communicate with the organizers.
-> 
+
 >  [Visit CodaLab competition website](https://codalab.lisn.upsaclay.fr/competitions/7320)
 
-<font size=6> <span style="color: Red;"> Updates  </span> </font>
 
 
-<font size=3> <span style="color: blue;"> AfriSenti result is released:[ check results tab](https://afrisenti-semeval.github.io/results/) </span> </font>
-
-<font size=3> <span style="color: blue;"> AfriSenti test set has been released on the task's [GitHub page](https://github.com/afrisenti-semeval/afrisent-semeval-2023).</span> </font>
-
-<font size=3> <span style="color: blue;"> System Description Paper Deadline 28/02/2023</span> </font>
+<font size=3> <span style="color: blue;"> AfriSenti dataset is available at task's:[GitHub repo](https://github.com/afrisenti-semeval/afrisent-semeval-2023) </span> </font>
 
 
-<a href="https://semeval.github.io/paper-requirements.html">Paper Submission Requirements</a>
-
-<a href="https://semeval.github.io/system-paper-template.html">Guidelines for Writing Papers</a>
-
-<a href="https://github.com/acl-org/acl-style-files">Paper Style Files</a>
-
-<a href="https://softconf.com/acl2023/SemEval2023/
-">Paper Submission Site</a>
 </center>
+
 
 ---
 ## **Motivation**

@@ -26,6 +26,7 @@
 <li><span>The datasets must not be redistributed or shared in part or full with any third party. Redirect interested parties to this website.</span></li>
 <li>If you use any of the datasets provided here, cite these papers:</li>
 </ul>
+
 <p><strong><cite><strong><cite><a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.63.pdf">NaijaSenti: A Nigerian Twitter Sentiment Corpus for Multilingual Sentiment Analysis</a>.&nbsp;</cite></strong>Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Said Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jeorge, Pavel Brazdil. In&nbsp;<em>Proceedings of the 13th Language Resources and Evaluation Conference (LREC2022)</em>, Marseille, France, June 20-25, 2022.&nbsp;</cite></strong></p>
 <pre>@InProceedings{muhammad-EtAl:2022:LREC,
   author = {Muhammad, Shamsuddeen Hassan and Adelani, David and Ruder, Sebastian and Ahmad, Ibrahim Sa'id and Abdulmumin, Idris and Bello, Shehu Bello and Choudhury, Monojit and Emezue, Chris Chinenye and Abdullahi, Saheed Salahuddeen and Aremu, Anuoluwapo and Jeorge, Alipio and Brazdil, Pavel},
